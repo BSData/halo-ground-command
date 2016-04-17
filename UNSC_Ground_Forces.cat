@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9353-7e39-93ad-ba1e" revision="1" gameSystemId="d7e3-c4ab-89a7-6ac3" gameSystemRevision="1" battleScribeVersion="1.15" name="UNSC Ground Forces" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="cfa7-4706-97b4-901b" name="Warthog Unit" points="0.0" categoryId="5f42-e903-cc28-fb2f" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e8c5-a1e6-913e-d58f" name="Element 1" defaultEntryId="8aa1-b72c-bc04-4739" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="8aa1-b72c-bc04-4739" targetId="a304-e30c-366d-d0a0" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="14a6-c4aa-86e6-8451" name="Element 2" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="21eb-5991-ed8b-e35d" targetId="a304-e30c-366d-d0a0" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups>
+    <entryGroup id="a304-e30c-366d-d0a0" name="Warthog" defaultEntryId="c23e-e6b3-2653-ddc8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="c23e-e6b3-2653-ddc8" name="M41 Light AA-Gun" points="120.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c6b6-7c4f-050a-4ec6" targetId="069f-e85b-393c-b439" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8bc0-227a-9bec-a9e9" name="Gauss Cannon" points="150.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ff67-efff-e10e-2fcd" targetId="6ff9-d1c8-dc60-97b9" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="26e7-e249-c501-8080" name="Multiple Rocket System" points="140.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="de59-f95e-b1a1-a9e4" targetId="eeab-b257-ab75-9905" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="6dfe-daff-9d7f-8b58" targetId="1e5b-4d29-0978-5d4a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+  </sharedEntryGroups>
+  <sharedRules/>
+  <sharedProfiles>
+      <characteristics>
+      </characteristics>
+      <modifiers/>
+    </profile>
+      <characteristics>
+        <characteristic characteristicId="4073-c676-5d7e-5f28" name="Range" value="R15/30&quot;"/>
+        <characteristic characteristicId="a27d-4a45-f1e2-4a50" name="Arc" value="360"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="069f-e85b-393c-b439" profileTypeId="02bc-bf7f-7645-2935" name="Warthog - M41 Light AA-Gun" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="4073-c676-5d7e-5f28" name="Range" value="R10/20&quot;"/>
+        <characteristic characteristicId="b868-c638-8b2e-cc2e" name="Weapon Loadouts" value="Suppressive (Infantry,2)"/>
+        <characteristic characteristicId="a27d-4a45-f1e2-4a50" name="Arc" value="360"/>
+        <characteristic characteristicId="a7f7-5584-10ef-8e6a" name="AP" value="AP8"/>
+        <characteristic characteristicId="cbc2-6a14-0b60-e671" name="AT" value="AT2"/>
+        <characteristic characteristicId="8922-4ba4-91c4-c482" name="AA" value="AA6"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+      <characteristics>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>
