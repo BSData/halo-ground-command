@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="1" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="2" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -219,6 +219,20 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
+                <entryLink id="f925-07d4-1bdc-7e3d" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="886f-6e61-8aa4-1131" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="6cbe-d9c0-2ddd-6cf0" name="2.3 Flyer Units" hidden="false" collective="false">
@@ -233,6 +247,205 @@
               <selectionEntryGroups/>
               <entryLinks>
                 <entryLink id="d5fa-7eeb-4b63-aabf" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c32-b495-2855-7a75" name="Siege Host Armoured Battlegroup" hidden="false" collective="false" categoryEntryId="2622-52fa-29f7-96bb" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="bdcf-0329-9ceb-9ba0" name="1. Requistes" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d2b2-cbda-6091-19cb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab6f-1c2b-8112-760d" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8eec-ffef-9f53-8f2b" name="1.1 Command Tank" hidden="false" collective="false" defaultSelectionEntryId="0f7c-6251-1293-e845">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3fc0-bd6b-a1a4-97a4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d3e-d2a1-483e-5213" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="0f7c-6251-1293-e845" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="e38d-f0b5-7e7d-b27a" name="1.2 Armoured Unit" hidden="false" collective="false" defaultSelectionEntryId="263c-01f4-ca93-9e71">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7dfc-818b-a9d4-7b4d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb09-034f-5447-24f7" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="263c-01f4-ca93-9e71" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7022-dc66-0b50-3983" name="1.3 Armoured Unit" hidden="false" collective="false" defaultSelectionEntryId="70b4-d08c-94f3-a42b">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9222-e90b-611d-ad9f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7cea-643a-3d7f-aa61" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="70b4-d08c-94f3-a42b" name="New EntryLink" hidden="false" targetId="ccaa-1ab3-b6b3-aea0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a7c8-c50e-3008-7cea" name="2. Options" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="833d-e15e-8db6-911b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="16a1-47de-ece6-ce71" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="0d5b-129b-95c8-b3c1" name="2.1 Infantry Units" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="Build Rating" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="40d1-4a6e-d7dc-4df6" type="max"/>
+                <constraint field="Character" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e6f-48cc-d6fa-a203" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="63b0-bb5e-6e91-88ca" name="New EntryLink" hidden="false" targetId="cc52-c4ce-5e31-f9a8" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="f618-2bfb-b0a9-bf84" name="New EntryLink" hidden="false" targetId="0328-8755-095b-685a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="f6aa-2401-246b-ee89" name="2.2 Armoured Units" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="Build Rating" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bef3-47be-9af4-1527" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="db9a-a2f7-325e-b205" name="New EntryLink" hidden="false" targetId="ccaa-1ab3-b6b3-aea0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="143b-eff7-b416-5632" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="c979-fb77-d919-3d5f" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7007-48e0-197f-42d2" name="2.3 Flyer Units" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="Build Rating" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f604-b24a-eb9e-962e" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="1923-3fbd-c332-fcba" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -896,6 +1109,133 @@
         <cost name="BR" costTypeId="Build Rating" value="5.0"/>
         <cost name="pts" costTypeId="points" value="250.0"/>
         <cost name="C" costTypeId="Character" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5097-c273-a60b-a4f6" name="Anti-Air Wraith - Type 52 Anti-Aircraft Artillery" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a553-dd8b-b3ed-8428" name="Anti-Air Wraith - Type 52 Anti-Aircraft Artillery" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+            <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR4"/>
+            <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M6/12&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S4"/>
+            <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R11/13"/>
+            <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I2"/>
+            <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="5-5-5"/>
+            <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(1), STS"/>
+            <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+          </characteristics>
+        </profile>
+        <profile id="d0f3-2abe-2da1-0b3f" name="Anti-Air Wraith - Fuel Rod Battery" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R20/40&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (FLY), Deverstating (INF), Indirect Fire"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT12"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA12"/>
+          </characteristics>
+        </profile>
+        <profile id="713e-fa66-3981-4a0c" name="Anti-Air Wraith - Medium Plasma Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT4"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
+        <cost name="pts" costTypeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6eb4-2710-255a-5321" name="Wraith - Type 26 Assault Gun Carriage" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c4db-3572-7231-b8d9" name="Wraith - Type 26 Assault Gun Carriage" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+            <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR4"/>
+            <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M6/12&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S4"/>
+            <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R11/13"/>
+            <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I2"/>
+            <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="5-5-5"/>
+            <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(1)"/>
+            <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+          </characteristics>
+        </profile>
+        <profile id="4f6b-1d9f-87f3-d22a" name="Wraith - Plasma Mortar" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/40&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (INF), Indirect Fire"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP15"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT8"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
+          </characteristics>
+        </profile>
+        <profile id="1fc7-ddee-75f6-fb41" name="Wraith - Medium Plasma Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT4"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="43a2-35eb-de1c-03f1" name="Heavy Ordnance" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
+        <cost name="pts" costTypeId="points" value="250.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
