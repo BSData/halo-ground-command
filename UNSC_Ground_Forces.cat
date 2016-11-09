@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="1" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="2" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -201,6 +201,34 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
+                <entryLink id="8919-1a22-2c35-5c9f" name="New EntryLink" hidden="false" targetId="36a8-6cba-d137-ea87" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="eca5-c197-cc3a-ebc1" name="New EntryLink" hidden="false" targetId="4508-c9de-df42-298e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="c130-901f-8b96-64b8" name="New EntryLink" hidden="false" targetId="2260-537b-59d0-5a73" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="7b76-fdfa-acf3-accc" name="New EntryLink" hidden="false" targetId="df7d-e83b-c37e-919d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="117b-135a-4626-72b2" name="2.3 Flyer Units" hidden="false" collective="false">
@@ -253,6 +281,219 @@
         <cost name="pts" costTypeId="points" value="50.0"/>
         <cost name="C" costTypeId="Character" value="0.0"/>
         <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7534-e40d-1e61-2d5c" name="UNSC Standard Armoured Battlegroup" hidden="false" collective="false" categoryEntryId="2622-52fa-29f7-96bb" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="58ae-f401-24d5-e8fb" name="1. Requistes" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="451f-f901-202c-c66b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d995-20ff-6f99-1cb8" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1f30-076f-03da-561b" name="1.1 Command Tank" hidden="false" collective="false" defaultSelectionEntryId="0a44-8431-ab6b-2f6a">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2dea-c30a-f741-8dd0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6f1-6e9c-5707-9fd2" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="0a44-8431-ab6b-2f6a" name="New EntryLink" hidden="false" targetId="2260-537b-59d0-5a73" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a79b-f68c-7423-37dc" name="1.2 Armoured Unit" hidden="false" collective="false" defaultSelectionEntryId="0c41-2cc9-5c79-36f5">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9e1d-cef0-a7ef-7459" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a848-893e-afba-5f75" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="0c41-2cc9-5c79-36f5" name="New EntryLink" hidden="false" targetId="df7d-e83b-c37e-919d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="94cf-c321-ea50-943e" name="1.3 Armoured Unit" hidden="false" collective="false" defaultSelectionEntryId="63d1-7da7-646a-bcc9">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a0f3-6703-ca12-f6ae" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb6e-9847-2592-3f1b" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="63d1-7da7-646a-bcc9" name="New EntryLink" hidden="false" targetId="36a8-6cba-d137-ea87" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="27b5-16ad-d72d-69e5" name="2. Options" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f952-a172-b9df-dbc1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2de4-53d1-7004-8ccc" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c975-1c37-005f-7dbc" name="2.1 Infantry Units" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="Build Rating" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="43d5-a349-0a9d-1682" type="max"/>
+                <constraint field="Character" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93a9-71bd-675e-284c" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="2cf2-721f-c7e9-1fd4" name="New EntryLink" hidden="false" targetId="e6d7-6cf9-feda-458c" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="f7cf-2c4f-9eb4-ae6c" name="New EntryLink" hidden="false" targetId="a6b7-5e23-8479-04a0" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="b072-1ae8-c14a-b65b" name="2.2 Armoured Units" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="Build Rating" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de0a-e0fb-6209-1325" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="b1ac-ca48-ba4c-1c9b" name="New EntryLink" hidden="false" targetId="916c-7529-28fc-9f10" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="341e-d8ee-fd80-71cc" name="New EntryLink" hidden="false" targetId="36a8-6cba-d137-ea87" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="acb1-f82c-0b79-8e8a" name="New EntryLink" hidden="false" targetId="4508-c9de-df42-298e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="10c2-1b8a-b577-22e0" name="New EntryLink" hidden="false" targetId="2260-537b-59d0-5a73" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="6b75-8d7a-e878-c092" name="New EntryLink" hidden="false" targetId="df7d-e83b-c37e-919d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="eeba-4025-77fc-c3f8" name="2.3 Flyer Units" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="Build Rating" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a783-f409-1ef2-ec9d" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="b92b-96c4-0040-dc56" name="New EntryLink" hidden="false" targetId="50e5-dc63-1437-5927" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -768,6 +1009,189 @@
       <costs>
         <cost name="BR" costTypeId="Build Rating" value="5.0"/>
         <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36a8-6cba-d137-ea87" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle Unit" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3813-08b2-fb19-bcb3" name="Units" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8bc1-2f8a-b67f-2bcf" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa2d-5ad4-d2cd-62ad" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4007-b896-6864-7319" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="bdef-65c6-cc95-28b9" hidden="false" targetId="1fd5-ae4b-4d8d-7dce" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="b850-47bb-d554-02a0" hidden="false" targetId="56eb-d4ea-3403-5b0c" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="125.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="2.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4508-c9de-df42-298e" name="Rocket Warthog - M12R Light Anti-Aircraft Vehicle Unit" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b14-4492-7ef5-ae4d" name="Units" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ddc-70bf-c1f4-0c87" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eba4-64ab-24ee-ef31" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fc51-d748-e869-9bcc" name="Rocket Warthog - M12R Light Anti-Aircraft Vehicle" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="031d-5b70-cf9d-dd78" hidden="false" targetId="9a4e-9e98-f97e-9ae3" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="e32a-247e-b224-28da" hidden="false" targetId="b865-37af-345d-2412" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="125.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="2.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df7d-e83b-c37e-919d" name="Sun Devil - M808B2 Air Defense System" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="80a9-4513-3323-c659" name="New InfoLink" hidden="false" targetId="b380-2174-937b-e142" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5a49-bd53-5495-a03c" name="New InfoLink" hidden="false" targetId="806b-eb89-8511-a72f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e85c-6faa-c92a-fe1e" name="New InfoLink" hidden="false" targetId="5528-9c8f-295c-73ec" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
+        <cost name="pts" costTypeId="points" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2260-537b-59d0-5a73" name="Scorpion - M808 Main Battle Tank" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fb22-7c6a-71df-f8fa" name="New InfoLink" hidden="false" targetId="5ace-dfd5-7059-5d02" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c9c-4073-dc2f-d569" name="New InfoLink" hidden="false" targetId="8304-2d12-cca2-a6d0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4132-8e5c-0972-9819" name="New InfoLink" hidden="false" targetId="aa3e-2d1c-864c-f3d3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
+        <cost name="pts" costTypeId="points" value="250.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -937,7 +1361,7 @@
         <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
       </characteristics>
     </profile>
-    <profile id="c099-d5db-12a6-e64d" name="Warthog" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+    <profile id="c099-d5db-12a6-e64d" name="Warthog - M12 Force Application Vehicle" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -983,6 +1407,158 @@
         <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-3"/>
         <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="AO"/>
         <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="4"/>
+      </characteristics>
+    </profile>
+    <profile id="1fd5-ae4b-4d8d-7dce" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+        <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR2"/>
+        <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M10/15&quot;"/>
+        <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S3"/>
+        <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R8/9"/>
+        <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I3"/>
+        <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="5-5"/>
+        <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(1)"/>
+        <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="56eb-d4ea-3403-5b0c" name="Warthog - Gauss Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R12/24&quot;"/>
+        <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (ARM)"/>
+        <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+        <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP3"/>
+        <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT10"/>
+        <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+      </characteristics>
+    </profile>
+    <profile id="9a4e-9e98-f97e-9ae3" name="Rocket Warthog - M12R Light Anti-Aircraft Vehicle" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+        <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR2"/>
+        <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M10/15&quot;"/>
+        <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S3"/>
+        <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R8/9"/>
+        <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I3"/>
+        <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="5-5"/>
+        <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(1)"/>
+        <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="b865-37af-345d-2412" name="Warthog - Rocket Launcher" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R12/24&quot;"/>
+        <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (FLY), Lock On"/>
+        <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+        <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+        <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT6"/>
+        <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA8"/>
+      </characteristics>
+    </profile>
+    <profile id="b380-2174-937b-e142" name="Sun Devil - M808B2 Air Defense System" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+        <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR4"/>
+        <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M8/12&quot;"/>
+        <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S3"/>
+        <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R10/12"/>
+        <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I3"/>
+        <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="6-6-5"/>
+        <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(1), STS"/>
+        <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="806b-eb89-8511-a72f" name="Sun Devil - Auto-Cannons" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R20/40&quot;"/>
+        <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (FLY), Lock On"/>
+        <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+        <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP7"/>
+        <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT3"/>
+        <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA14"/>
+      </characteristics>
+    </profile>
+    <profile id="5528-9c8f-295c-73ec" name="Sun Devil - Heavy Machine Gun" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+        <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Suppression (+2)"/>
+        <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+        <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+        <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT1"/>
+        <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+      </characteristics>
+    </profile>
+    <profile id="5ace-dfd5-7059-5d02" name="Scorpion - M808 Main Battle Tank" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+        <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR4"/>
+        <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M8/12&quot;"/>
+        <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S3"/>
+        <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R10/12"/>
+        <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I3"/>
+        <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="6-6-5"/>
+        <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(1)"/>
+        <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="8304-2d12-cca2-a6d0" name="Scorpion - High Velocity Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R20/40&quot;"/>
+        <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (ARM)"/>
+        <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+        <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP4"/>
+        <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT18"/>
+        <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
+      </characteristics>
+    </profile>
+    <profile id="aa3e-2d1c-864c-f3d3" name="Scorpion - Heavy Machine Gun" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+        <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Suppression (+2)"/>
+        <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+        <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+        <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT1"/>
+        <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
       </characteristics>
     </profile>
   </sharedProfiles>
