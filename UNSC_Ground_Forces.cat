@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="2" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="3" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -703,7 +703,7 @@
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="441f-7554-a740-b198" name="Units" hidden="false" collective="false">
+        <selectionEntryGroup id="441f-7554-a740-b198" name="Units" hidden="false" collective="false" defaultSelectionEntryId="9a9f-a349-dfb8-4d10">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1020,7 +1020,7 @@
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3813-08b2-fb19-bcb3" name="Units" hidden="false" collective="false">
+        <selectionEntryGroup id="3813-08b2-fb19-bcb3" name="Units" hidden="false" collective="false" defaultSelectionEntryId="4007-b896-6864-7319">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1078,7 +1078,7 @@
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4b14-4492-7ef5-ae4d" name="Units" hidden="false" collective="false">
+        <selectionEntryGroup id="4b14-4492-7ef5-ae4d" name="Units" hidden="false" collective="false" defaultSelectionEntryId="fc51-d748-e869-9bcc">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1159,6 +1159,7 @@
       <costs>
         <cost name="BR" costTypeId="Build Rating" value="4.0"/>
         <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2260-537b-59d0-5a73" name="Scorpion - M808 Main Battle Tank" hidden="false" collective="false" type="upgrade">
@@ -1192,6 +1193,7 @@
       <costs>
         <cost name="BR" costTypeId="Build Rating" value="4.0"/>
         <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="2" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="3" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -482,7 +482,7 @@
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3f22-41a9-5cd5-a3ed" name="Units" hidden="false" collective="false">
+        <selectionEntryGroup id="3f22-41a9-5cd5-a3ed" name="Units" hidden="false" collective="false" defaultSelectionEntryId="c45f-b860-69a9-18ca">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1169,6 +1169,7 @@
       <costs>
         <cost name="BR" costTypeId="Build Rating" value="4.0"/>
         <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6eb4-2710-255a-5321" name="Wraith - Type 26 Assault Gun Carriage" hidden="false" collective="false" type="model">
@@ -1236,6 +1237,7 @@
       <costs>
         <cost name="BR" costTypeId="Build Rating" value="4.0"/>
         <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
