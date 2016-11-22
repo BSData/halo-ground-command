@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="3" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="4" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -155,7 +155,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="80a9-6440-4411-53eb" name="2. Options" hidden="false" collective="false" type="unit">
+        <selectionEntry id="80a9-6440-4411-53eb" name="2.1 Infantry Options" hidden="false" collective="false" type="unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -172,8 +172,8 @@
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="Build Rating" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="246d-0611-d753-0dc0" type="max"/>
-                <constraint field="Character" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="84a9-03b9-11a1-17f2" type="max"/>
+                <constraint field="Character" scope="80a9-6440-4411-53eb" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="358c-9a52-f833-a125" type="max"/>
+                <constraint field="Build Rating" scope="80a9-6440-4411-53eb" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="446f-6db2-0365-01ec" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -201,32 +201,65 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="f4e8-1084-3864-ea0f" name="2.2 Armoured Units" hidden="false" collective="false">
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ee6e-d575-1705-7d32" name="2.2 Armoured Options" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d1a7-8802-a292-265e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d46c-2f49-07b0-b5ee" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e34f-575f-7026-fc80" name="2.2 Armoured Units" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="Build Rating" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a13-d911-92c2-ac4e" type="max"/>
+                <constraint field="Build Rating" scope="ee6e-d575-1705-7d32" value="8.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7ede-0625-8f25-c43b" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="c160-855e-3b63-b954" name="New EntryLink" hidden="false" targetId="ccaa-1ab3-b6b3-aea0" type="selectionEntry">
+                <entryLink id="ba49-7d21-8184-4799" name="New EntryLink" hidden="false" targetId="ccaa-1ab3-b6b3-aea0" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="f925-07d4-1bdc-7e3d" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
+                <entryLink id="4a3a-0cbc-925f-8e50" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="886f-6e61-8aa4-1131" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
+                <entryLink id="d6a6-1991-9b79-a547" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="e123-5f99-1723-27c8" name="New EntryLink" hidden="false" targetId="fdbb-01b3-1552-9b78" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="d51b-46d8-5fa4-06e1" name="New EntryLink" hidden="false" targetId="566e-52fe-4238-d9ed" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -235,18 +268,37 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="6cbe-d9c0-2ddd-6cf0" name="2.3 Flyer Units" hidden="false" collective="false">
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0393-b9c1-d60b-053f" name="2.3 Flyer Options" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dddf-c9b2-49ae-55cf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c6b4-235e-16a0-bb6d" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="5351-7f83-4f53-c94f" name="2.3 Flyer Units" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="Build Rating" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="32f5-556b-2fe9-8442" type="max"/>
+                <constraint field="Build Rating" scope="0393-b9c1-d60b-053f" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="176b-66e4-8004-cc14" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="d5fa-7eeb-4b63-aabf" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
+                <entryLink id="3f19-e71e-bc26-8dc5" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -361,7 +413,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a7c8-c50e-3008-7cea" name="2. Options" hidden="false" collective="false" type="unit">
+        <selectionEntry id="a7c8-c50e-3008-7cea" name="2.1 Infantry Options" hidden="false" collective="false" type="unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -378,8 +430,8 @@
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="Build Rating" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="40d1-4a6e-d7dc-4df6" type="max"/>
-                <constraint field="Character" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e6f-48cc-d6fa-a203" type="max"/>
+                <constraint field="Build Rating" scope="a7c8-c50e-3008-7cea" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="40d1-4a6e-d7dc-4df6" type="max"/>
+                <constraint field="Character" scope="a7c8-c50e-3008-7cea" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e6f-48cc-d6fa-a203" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -400,32 +452,65 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="f6aa-2401-246b-ee89" name="2.2 Armoured Units" hidden="false" collective="false">
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f09b-29fa-c52b-0537" name="2.2 Armoured Options" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b60-579f-55c1-f69d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f56a-8f4a-15c4-d312" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="5c4d-5237-0dac-2c77" name="2.2 Armoured Units" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="Build Rating" scope="parent" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bef3-47be-9af4-1527" type="max"/>
+                <constraint field="Build Rating" scope="f09b-29fa-c52b-0537" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a96e-c62c-645e-6c6e" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="db9a-a2f7-325e-b205" name="New EntryLink" hidden="false" targetId="ccaa-1ab3-b6b3-aea0" type="selectionEntry">
+                <entryLink id="39bd-b083-41f2-9a6c" name="New EntryLink" hidden="false" targetId="ccaa-1ab3-b6b3-aea0" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="143b-eff7-b416-5632" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
+                <entryLink id="4eb7-45b1-f32b-6f7f" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
                 </entryLink>
-                <entryLink id="c979-fb77-d919-3d5f" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
+                <entryLink id="c27d-74ed-bda5-fef2" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="b703-d935-5e48-960f" name="New EntryLink" hidden="false" targetId="566e-52fe-4238-d9ed" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="73a5-f490-5a3e-dd55" name="New EntryLink" hidden="false" targetId="fdbb-01b3-1552-9b78" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -434,18 +519,37 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="7007-48e0-197f-42d2" name="2.3 Flyer Units" hidden="false" collective="false">
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fb58-54d2-5453-cd6d" name="2.3 Flyer Options" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e6b-89b2-c031-21d0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4698-26cc-2c8d-2ca0" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="bd05-5609-1cfc-3fe2" name="2.3 Flyer Units" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="Build Rating" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f604-b24a-eb9e-962e" type="max"/>
+                <constraint field="Build Rating" scope="fb58-54d2-5453-cd6d" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="304e-cf3c-921f-2512" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="1923-3fbd-c332-fcba" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
+                <entryLink id="4488-ce0f-5836-16db" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -478,7 +582,15 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="Build Rating" value="2">
+          <repeats>
+            <repeat field="selections" scope="ccaa-1ab3-b6b3-aea0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c45f-b860-69a9-18ca" repeats="1"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -541,7 +653,6 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="BR" costTypeId="Build Rating" value="1.0"/>
                 <cost name="pts" costTypeId="points" value="80.0"/>
                 <cost name="C" costTypeId="Character" value="0.0"/>
               </costs>
@@ -619,7 +730,7 @@
         <cost name="C" costTypeId="Character" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0328-8755-095b-685a" name="Grunts - Levies Unit" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0328-8755-095b-685a" name="Grunts - Levies Unit" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="8e82-1631-48a7-1c78" name="Grunts - Levies Unit" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
           <profiles/>
@@ -798,7 +909,7 @@
         <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cc52-c4ce-5e31-f9a8" name="Grunts - Levies Lance Unit" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cc52-c4ce-5e31-f9a8" name="Grunts - Levies Lance Unit" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="6bc8-7241-b490-1a20" name="Grunts - Levies Lance Unit" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
           <profiles/>
@@ -979,7 +1090,7 @@
     </selectionEntry>
     <selectionEntry id="fdbb-01b3-1552-9b78" name="Hunters - Mgalekgolo Battle Congregation" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="d013-75c1-9ee6-5493" name="Hunters - Mgalekgolo Battle Congregation" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
+        <profile id="b34d-aaed-2938-9c8f" name="Hunters - Mgalekgolo Battle Congregation" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -996,7 +1107,7 @@
             <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="2"/>
           </characteristics>
         </profile>
-        <profile id="26f7-20a1-3673-7042" name="Hunters - Assault Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+        <profile id="6eb9-48c7-b932-2cec" name="Hunters - Assault Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1012,19 +1123,19 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="ab86-c995-4075-bfec" name="Hunter Shield" hidden="false">
+        <rule id="ac1d-5066-4774-2f00" name="Gestalt Creatures" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </rule>
-        <rule id="a57c-5065-359e-a46c" name="Spirit Bond" hidden="false">
+        <rule id="b6b1-071e-11c3-02b1" name="Hunter Shield" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </rule>
-        <rule id="2cd7-e7be-8453-f36b" name="Gestalt Creatures" hidden="false">
+        <rule id="0785-f67d-167f-2d58" name="Spirit Bond" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1038,9 +1149,9 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
         <cost name="C" costTypeId="Character" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="240.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d2f-3c74-952c-aa16" name="Phantom - Type 52 Troop Carrier" hidden="false" collective="false" type="unit">
@@ -1111,7 +1222,7 @@
         <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5097-c273-a60b-a4f6" name="Anti-Air Wraith - Type 52 Anti-Aircraft Artillery" hidden="false" collective="false" type="model">
+    <selectionEntry id="5097-c273-a60b-a4f6" name="Anti-Air Wraith - Type 52 Anti-Aircraft Artillery" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="a553-dd8b-b3ed-8428" name="Anti-Air Wraith - Type 52 Anti-Aircraft Artillery" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
           <profiles/>
@@ -1172,7 +1283,7 @@
         <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6eb4-2710-255a-5321" name="Wraith - Type 26 Assault Gun Carriage" hidden="false" collective="false" type="model">
+    <selectionEntry id="6eb4-2710-255a-5321" name="Wraith - Type 26 Assault Gun Carriage" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="c4db-3572-7231-b8d9" name="Wraith - Type 26 Assault Gun Carriage" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
           <profiles/>
@@ -1237,6 +1348,95 @@
       <costs>
         <cost name="BR" costTypeId="Build Rating" value="4.0"/>
         <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="566e-52fe-4238-d9ed" name="Storm Ghost - Type 32 Rapid Attack Vehicle Unit" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="Build Rating" value="2">
+          <repeats>
+            <repeat field="selections" scope="566e-52fe-4238-d9ed" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cda4-61ce-40e0-8cc3" repeats="1"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d8c3-5fc5-4d75-74b3" name="Units" hidden="false" collective="false" defaultSelectionEntryId="cda4-61ce-40e0-8cc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="02b7-c7d6-5abf-873d" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc11-f6cf-6138-a4c0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cda4-61ce-40e0-8cc3" name="Storm Ghost - Type 32 Rapid Attack Vehicle" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="a2e3-b28d-859e-c4f1" name="Storm Ghost" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+                    <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR2"/>
+                    <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M12/18&quot;"/>
+                    <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S4"/>
+                    <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R6/8"/>
+                    <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I2"/>
+                    <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="4-4"/>
+                    <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(2)"/>
+                    <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+                  </characteristics>
+                </profile>
+                <profile id="d4c8-eda8-b4ed-925e" name="Storm Ghost - Plasma Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="Front"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT4"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="ccbb-f473-dfbc-9030" name="Diminutive" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="100.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
         <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
