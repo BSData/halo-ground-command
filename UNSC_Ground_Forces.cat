@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="5" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="6" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -154,13 +154,6 @@
               <selectionEntryGroups/>
               <entryLinks>
                 <entryLink id="7e6d-3e49-a28a-a5fb" name="New EntryLink" hidden="false" targetId="e6d7-6cf9-feda-458c" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </entryLink>
-                <entryLink id="c812-5fee-470d-bd0d" name="New EntryLink" hidden="false" targetId="2e4e-96d2-f3c0-1eab" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -822,6 +815,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="120.0"/>
                 <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1146,6 +1140,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="125.0"/>
                 <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1211,6 +1206,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="125.0"/>
                 <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
