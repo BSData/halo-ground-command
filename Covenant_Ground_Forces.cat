@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="5" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="6" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -333,7 +333,15 @@
       <selectionEntries>
         <selectionEntry id="bdcf-0329-9ceb-9ba0" name="1. Requistes" hidden="false" collective="false" type="unit">
           <profiles/>
-          <rules/>
+          <rules>
+            <rule id="933a-6c49-ab7d-32a3" name="Group Commander" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Requiste Wraith - Type 26 Assault Gun Carriage in this battlegroup gains the Commanding Presence 8&quot; loadout for free.</description>
+            </rule>
+          </rules>
           <infoLinks/>
           <modifiers/>
           <constraints>
@@ -573,6 +581,1035 @@
         <cost name="C" costTypeId="Character" value="0.0"/>
         <cost name="BR" costTypeId="Build Rating" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="60d8-b011-f8dd-0b69" name="Spectral Host Specialist Battlegroup" book="Core" page="32" hidden="false" collective="false" categoryEntryId="7172-8a4b-611a-9f2c" type="unit">
+      <profiles/>
+      <rules>
+        <rule id="8e97-0e65-58c7-2d30" name="Swift Death" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Unknown, provisional Page 32 Core Rule Book</description>
+        </rule>
+        <rule id="495f-af02-7ae9-f57a" name="Provisional" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This Battlegroup is shown only as an example in the Core Rule Book on Page 32 and cannot be assumed as correct. Nor is there any information on the special rule: &quot;Swift Death&quot;</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="52a3-3246-fd53-5d3b" name="2.1 Flyer Options" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2738-b9be-8bb8-75e8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f2f-39f4-5e40-82ae" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="5bcb-83bf-4d50-fd89" name="2.1 Flyer Units" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="Build Rating" scope="52a3-3246-fd53-5d3b" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5e6a-965d-0c95-e218" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="fc0c-441e-2300-a43c" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f1e8-5a3a-9268-4b20" name="1. Requistes" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a27d-f07f-2fce-b7c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9eb0-859a-cddc-fb2e" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f295-70ea-9027-d21e" name="1.1 Elite Ghosts" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63a4-a85e-4bbc-7082" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="44a4-20c1-0836-030a" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="2ce2-3eef-10c1-e65c" name="New EntryLink" hidden="false" targetId="566e-52fe-4238-d9ed" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="92d7-16d9-2649-1517" name="1.2 Elite Ghosts" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa1a-9f90-e2f6-3754" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f95f-d481-e97d-2b2d" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="2018-2fb3-f061-ef8c" name="New EntryLink" hidden="false" targetId="566e-52fe-4238-d9ed" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2785-42b8-85f3-7356" name="1.3 Elite Ghosts" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f5e4-0f79-c7b8-493b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="013d-16a5-3292-ee9a" type="min"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="10ab-f7f0-5465-2c47" name="New EntryLink" hidden="false" targetId="566e-52fe-4238-d9ed" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="C" costTypeId="Character" value="0.0"/>
+            <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3487-5e3b-d42f-5494" name="Generic Force Commander" hidden="false" collective="false" categoryEntryId="cefc-8143-dc20-9bf8" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="50.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f117-4bbf-c83e-d87d" name="Anti-Air Wraith - Type 52 Anti-Aircraft Artillery" hidden="false" collective="false" categoryEntryId="0744-a0c8-3431-ff6e" type="unit">
+      <profiles>
+        <profile id="325e-d7e0-39d6-bffb" name="Anti-Air Wraith - Type 52 Anti-Aircraft Artillery" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+            <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR4"/>
+            <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M6/12&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S4"/>
+            <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R11/13"/>
+            <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I2"/>
+            <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="5-5-5"/>
+            <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(1), STS"/>
+            <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+          </characteristics>
+        </profile>
+        <profile id="7b96-947b-86ed-2f7c" name="Anti-Air Wraith - Fuel Rod Battery" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R20/40&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (FLY), Deverstating (INF), Indirect Fire"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT12"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA12"/>
+          </characteristics>
+        </profile>
+        <profile id="d44e-b1ac-1356-b877" name="Anti-Air Wraith - Medium Plasma Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT4"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
+        <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="745f-be20-772a-804a" name="Elite Zealot - Warhost Leader" hidden="false" collective="false" categoryEntryId="870a-81aa-e07c-3d01" type="unit">
+      <profiles>
+        <profile id="b5a9-108e-8e38-614c" name="Elite Zealot - Leader - Small Arms" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP7"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT7"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA6"/>
+          </characteristics>
+        </profile>
+        <profile id="e12d-a548-ff87-5237" name="Elite Zealot - Leader" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Character Infantry"/>
+            <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR3"/>
+            <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
+            <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R7/9"/>
+            <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="M8"/>
+            <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-8"/>
+            <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="A(INF), BH(6), CP(6&quot;), F, HS(LEA), R"/>
+            <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="1"/>
+          </characteristics>
+        </profile>
+        <profile id="5faf-1d1f-fc47-3c43" name="Elite Zealot - Leader - Plasma Grenades" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R6&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Blast, Cooldown"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP5"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT3"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
+        <cost name="pts" costTypeId="points" value="125.0"/>
+        <cost name="C" costTypeId="Character" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ac8-52f8-0c0d-6b07" name="Grunts - Levies Lance Unit" hidden="false" collective="false" categoryEntryId="870a-81aa-e07c-3d01" type="unit">
+      <profiles>
+        <profile id="8c1b-7932-a5da-9908" name="Grunts - Levies Lance Unit" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Infantry"/>
+            <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR1"/>
+            <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
+            <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R9/11"/>
+            <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="M1"/>
+            <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-2"/>
+            <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="None"/>
+            <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="12"/>
+          </characteristics>
+        </profile>
+        <profile id="037b-4018-f9d2-aca9" name="Grunts - Plasma Grenades" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R6&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Blast, Cooldown"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA0"/>
+          </characteristics>
+        </profile>
+        <profile id="54c2-60a7-db2d-d9da" name="Grunts - Small Arms" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R12&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="28a9-5407-dd61-98a3" name="Weapon Upgrade" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a3f1-9d85-e64f-b71c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4b4d-0bdd-2a76-7151" name="One Fuel Rod Cannons Base" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="4b6d-bc7a-7b51-9282" name="Grunts - Fuel Rod Cannons" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R16&quot;/-"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (ARM)"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT5"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="215b-9136-43f8-0c71" name="Warrior Upgrade" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4227-9c5d-889f-79fa" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="204d-c8a7-c327-ad94" name="One Elite Base" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="ab1e-8849-d5cc-b18d" name="Elite Minor - Overseer Base" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Infantry"/>
+                    <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR0"/>
+                    <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
+                    <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
+                    <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R7/10"/>
+                    <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="M3"/>
+                    <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-4"/>
+                    <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="BH(1), HS(LEA)"/>
+                    <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="1"/>
+                  </characteristics>
+                </profile>
+                <profile id="e756-8931-5573-aa6e" name="Elite Minor - Plasma Grenades" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R6&quot;/-"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Blast, Cooldown"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP3"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA0"/>
+                  </characteristics>
+                </profile>
+                <profile id="71fd-896a-b322-7abe" name="Elite Minor - Small Arms" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R12&quot;/-1"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP4"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
+        <cost name="pts" costTypeId="points" value="240.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee0b-3f4b-e864-2e20" name="Grunts - Levies Unit" hidden="false" collective="false" categoryEntryId="870a-81aa-e07c-3d01" type="unit">
+      <profiles>
+        <profile id="7c61-82a0-18c8-5742" name="Grunts - Levies Unit" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Infantry"/>
+            <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR1"/>
+            <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
+            <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R9/11"/>
+            <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="M1"/>
+            <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-2"/>
+            <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="None"/>
+            <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="426c-3760-7b8d-2bf7" name="Grunts - Plasma Grenades" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R6&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Blast, Cooldown"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA0"/>
+          </characteristics>
+        </profile>
+        <profile id="a8e8-f581-f85a-3408" name="Grunts - Small Arms" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R12&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bfac-acde-587d-7538" name="Weapon Upgrade" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1764-0565-3034-c0ec" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4d25-8427-a118-f0f4" name="One Fuel Rod Cannons Base" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="7fe2-6a86-83d4-b88f" name="Grunts - Fuel Rod Cannons" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R16&quot;/-"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (ARM)"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT5"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="633d-4708-1cd8-27fd" name="Warrior Upgrade" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b056-8c63-390f-032b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4a49-9487-edd0-b278" name="One Elite Base" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a31f-e7e1-7e0a-6e66" name="Elite Minor - Overseer Base" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Infantry"/>
+                    <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR0"/>
+                    <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
+                    <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
+                    <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R7/10"/>
+                    <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="M3"/>
+                    <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-4"/>
+                    <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="BH(1), HS(LEA)"/>
+                    <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="1"/>
+                  </characteristics>
+                </profile>
+                <profile id="45a5-b629-5e83-97a5" name="Elite Minor - Plasma Grenades" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R6&quot;/-"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Blast, Cooldown"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP3"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA0"/>
+                  </characteristics>
+                </profile>
+                <profile id="02b1-3aec-8825-2b6e" name="Elite Minor - Small Arms" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R12&quot;/-1"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP4"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="1.0"/>
+        <cost name="pts" costTypeId="points" value="80.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2384-7608-49e4-5bd4" name="Hunters - Mgalekgolo Battle Congregation" hidden="false" collective="false" categoryEntryId="0744-a0c8-3431-ff6e" type="unit">
+      <profiles>
+        <profile id="5924-ac88-704b-63f1" name="Hunters - Mgalekgolo Battle Congregation" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Armoured"/>
+            <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR2 each"/>
+            <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
+            <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R11/13"/>
+            <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="M6"/>
+            <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="6-6"/>
+            <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="BH(3), HR"/>
+            <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="2"/>
+          </characteristics>
+        </profile>
+        <profile id="7843-a24f-b702-4baa" name="Hunters - Assault Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R20&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT6"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9c64-4d90-2d5f-fda7" name="Gestalt Creatures" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="2233-e3fe-224b-8f1f" name="Hunter Shield" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="4248-dba2-b1a9-1394" name="Spirit Bond" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="240.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="912b-b007-9661-b1e8" name="Phantom - Type 52 Troop Carrier" hidden="false" collective="false" categoryEntryId="7c35-1431-7aeb-f459" type="unit">
+      <profiles>
+        <profile id="89e0-a4e6-1c8d-c330" name="Phantom - Type 52 Troop Carrier" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="FLYER"/>
+            <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR5"/>
+            <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="ASF"/>
+            <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S5"/>
+            <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R-"/>
+            <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I-"/>
+            <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="6-5-5"/>
+            <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="DO"/>
+            <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+          </characteristics>
+        </profile>
+        <profile id="b356-2322-26dc-9a2e" name="Phantom - Heavy Plasma Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R15&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT12"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA8"/>
+          </characteristics>
+        </profile>
+        <profile id="3193-c8b9-25e4-ab13" name="Phantom - Plasma Cannons" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R15&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="L &amp; G"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP8"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT6"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5709-89f9-9791-59b9" name="Air Support Missions" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="5.0"/>
+        <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="640f-d669-64bb-dfe7" name="Scout Ghost - Type 32 Rapid Attack Vehicle Unit" hidden="false" collective="false" categoryEntryId="0744-a0c8-3431-ff6e" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="Build Rating" value="1">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0129-706b-1f00-227c" repeats="1"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="47a1-3076-fb25-e109" name="Units" hidden="false" collective="false" defaultSelectionEntryId="0129-706b-1f00-227c">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4002-f883-d761-2ba7" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="69a4-d461-dc02-5ef6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0129-706b-1f00-227c" name="Scout Ghost - Type 32 Rapid Attack Vehicle" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="a0b5-c08e-130a-02ca" name="Scout Ghost" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+                    <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR1"/>
+                    <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M12/18&quot;"/>
+                    <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S3"/>
+                    <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R7/9"/>
+                    <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I1"/>
+                    <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="3-3"/>
+                    <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(2)"/>
+                    <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+                  </characteristics>
+                </profile>
+                <profile id="7b31-233b-3521-f7c1" name="Scout Ghost - Plasma Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="Front"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT4"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="580b-2756-c784-e9fb" name="Diminutive" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="80.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="496e-5e1b-fde0-04f2" name="Storm Ghost - Type 32 Rapid Attack Vehicle Unit" hidden="false" collective="false" categoryEntryId="0744-a0c8-3431-ff6e" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="increment" field="Build Rating" value="2">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="164b-923e-3a3a-e6aa" repeats="1"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1c7e-cc17-342b-3df5" name="Units" hidden="false" collective="false" defaultSelectionEntryId="164b-923e-3a3a-e6aa">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d06a-c596-fdba-a390" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d561-6ce7-b56a-e995" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="164b-923e-3a3a-e6aa" name="Storm Ghost - Type 32 Rapid Attack Vehicle" hidden="false" collective="false" type="model">
+              <profiles>
+                <profile id="cfb0-a6c9-5509-d945" name="Storm Ghost" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+                    <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR2"/>
+                    <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M12/18&quot;"/>
+                    <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S4"/>
+                    <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R6/8"/>
+                    <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I2"/>
+                    <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="4-4"/>
+                    <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(2)"/>
+                    <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+                  </characteristics>
+                </profile>
+                <profile id="1511-0d41-205c-1d28" name="Storm Ghost - Plasma Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1)"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="Front"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT4"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="fd52-400b-7ff7-6be7" name="Diminutive" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="100.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8070-dd99-d2ed-95ea" name="Wraith - Type 26 Assault Gun Carriage" hidden="false" collective="false" categoryEntryId="0744-a0c8-3431-ff6e" type="unit">
+      <profiles>
+        <profile id="4d80-2dfd-1ccf-816c" name="Wraith - Type 26 Assault Gun Carriage" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Armoured"/>
+            <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR4"/>
+            <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="M6/12&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S4"/>
+            <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R11/13"/>
+            <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I2"/>
+            <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="5-5-5"/>
+            <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="AI(1)"/>
+            <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+          </characteristics>
+        </profile>
+        <profile id="d926-2968-f306-3b47" name="Wraith - Plasma Mortar" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/40&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (INF), Indirect Fire"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP15"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT8"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
+          </characteristics>
+        </profile>
+        <profile id="0a9d-08a8-c124-7e04" name="Wraith - Medium Plasma Cannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT4"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d214-594e-379c-703c" name="Heavy Ordnance" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
+        <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
