@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="8" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="9" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -175,6 +175,13 @@
                   <constraints/>
                 </entryLink>
                 <entryLink id="1fa3-4d66-8f47-a5be" name="New EntryLink" hidden="false" targetId="bc85-0e92-3e0c-c0fe" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="99a1-5c47-e72a-fb01" name="New EntryLink" hidden="false" targetId="5675-3311-9e98-a64a" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -501,6 +508,13 @@
                   <modifiers/>
                   <constraints/>
                 </entryLink>
+                <entryLink id="e83c-eb3c-8644-084a" name="New EntryLink" hidden="false" targetId="5675-3311-9e98-a64a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -602,470 +616,128 @@
         <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="089a-b438-5e13-8e1a" name="Fire Support - UNSC Army Weapons Unit" hidden="false" collective="false" categoryEntryId="870a-81aa-e07c-3d01" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="94ed-c3fb-4d87-8fa2" hidden="false" targetId="cb18-b096-7e1d-612b" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6d52-3f5b-4cc6-2106" hidden="false" targetId="2ee1-013c-9771-87e0" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="53c2-8ddd-b9f5-1b62" hidden="false" targetId="59fe-dbea-1ffc-b9b9" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="51d7-fcc2-3b2c-6a61" name="Unit Upgrade" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f4f-cc4a-b9d7-fd77" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0621-6ca3-0bcd-0df8" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="8d43-341a-122c-e94b" name="One M247 MMG" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="8ab2-6c3f-6d83-82e3" name="New InfoLink" hidden="false" targetId="85d6-f3ab-c7f7-4e3d" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="C" costTypeId="Character" value="0.0"/>
-                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dcdf-d717-5cf3-573f" name="One Missile Pod launcher" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="1174-e143-9b55-c3d1" name="New InfoLink" hidden="false" targetId="9118-8a39-213d-c594" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="C" costTypeId="Character" value="0.0"/>
-                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="170.0"/>
-        <cost name="BR" costTypeId="Build Rating" value="2.0"/>
-        <cost name="C" costTypeId="Character" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4e20-8ff3-fda6-fde9" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle Unit" hidden="false" collective="false" categoryEntryId="0744-a0c8-3431-ff6e" type="unit">
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="7cf1-8936-eec9-3b95" name="New EntryLink" hidden="false" targetId="2e4e-96d2-f3c0-1eab" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="Build Rating" value="2">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bbd-1ae6-4bf0-262d" repeats="1"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="cd6c-e236-aa54-907c" name="Units" hidden="false" collective="false" defaultSelectionEntryId="4bbd-1ae6-4bf0-262d">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0848-326f-2c75-7ca3" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="82fc-1786-a1ff-3663" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="4bbd-1ae6-4bf0-262d" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="00c4-2a15-dc0d-b238" hidden="false" targetId="1fd5-ae4b-4d8d-7dce" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="4558-25ba-c113-2973" hidden="false" targetId="56eb-d4ea-3403-5b0c" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="125.0"/>
-                <cost name="C" costTypeId="Character" value="0.0"/>
-                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-      <costs>
-        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
-        <cost name="C" costTypeId="Character" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e756-1551-30aa-fead" name="Officer - UNSC Army Command Unit" hidden="false" collective="false" categoryEntryId="870a-81aa-e07c-3d01" type="unit">
-      <profiles/>
-      <rules>
-        <rule id="3b7f-ec5d-d1e7-4db9" name="Radio Operator" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>The Commanding Office Loadout may be used by Armoured Units within range as well as Infantry Units.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="ec44-1c47-4475-9085" hidden="false" targetId="2ee1-013c-9771-87e0" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="47bb-62e9-a328-16c0" hidden="false" targetId="f21a-ccb8-ebc3-813f" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="134d-f237-e5de-5321" hidden="false" targetId="1c60-98fb-4571-e3cc" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
       <modifiers/>
       <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="80.0"/>
-        <cost name="BR" costTypeId="Build Rating" value="2.0"/>
-        <cost name="C" costTypeId="Character" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c19c-968c-49a1-6cab" name="Pelican - D77-Troop Carrier" hidden="false" collective="false" categoryEntryId="7c35-1431-7aeb-f459" type="unit">
+    </entryLink>
+    <entryLink id="65fb-3f02-24d0-efc5" name="New EntryLink" hidden="false" targetId="a6b7-5e23-8479-04a0" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="7aef-e07b-abb6-01cb" name="New EntryLink" hidden="false" targetId="2e4e-96d2-f3c0-1eab" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="6bcd-4d27-7c27-205b" name="New EntryLink" hidden="false" targetId="50e5-dc63-1437-5927" type="selectionEntry" categoryEntryId="7c35-1431-7aeb-f459">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="b348-80fa-8af5-97c7" name="New EntryLink" hidden="false" targetId="916c-7529-28fc-9f10" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="017a-c436-f3d5-5656" name="New EntryLink" hidden="false" targetId="df7d-e83b-c37e-919d" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="3dfe-f217-0460-bfa8" name="New EntryLink" hidden="false" targetId="2260-537b-59d0-5a73" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="5145-b005-ddc6-db14" name="New EntryLink" hidden="false" targetId="e6d7-6cf9-feda-458c" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="4cfb-f034-468d-b801" name="New EntryLink" hidden="false" targetId="4508-c9de-df42-298e" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="dd98-3f54-f2d6-f99d" name="New EntryLink" hidden="false" targetId="977c-445b-7cbe-11dd" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="0a45-e305-8433-2b2e" name="New EntryLink" hidden="false" targetId="bc85-0e92-3e0c-c0fe" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="e85a-597d-49a3-29de" name="New EntryLink" hidden="false" targetId="5675-3311-9e98-a64a" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="2e4e-96d2-f3c0-1eab" name="Officer - UNSC Army Command Unit" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles>
-        <profile id="2ea8-6091-c7a2-f3da" name="Pelican - Missile Launchers" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+        <profile id="6adc-0744-7275-fa4e" name="Officer - Command Unit" hidden="false" profileTypeId="64a0-7713-dd08-5a9d">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R15&quot;/-"/>
-            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deversating (INF)"/>
-            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
-            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP10"/>
-            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT6"/>
-            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA6"/>
+            <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Character Infantry"/>
+            <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR2"/>
+            <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
+            <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R6/8"/>
+            <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="M2"/>
+            <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-4"/>
+            <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="A(INF), BH(1), CP(12&quot;), HS(LEA), R"/>
+            <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="1"/>
           </characteristics>
         </profile>
-        <profile id="7a19-5a36-083b-d2a6" name="Pelican - Autocannon" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+        <profile id="2343-bd57-5580-74fb" name="Officer - Command Unit - Small Arms" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R15&quot;/-"/>
-            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (ARM)"/>
-            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
-            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
-            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT10"/>
-            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA6"/>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Suppression (+1)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP4"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AP3"/>
           </characteristics>
         </profile>
-        <profile id="55b0-5569-0e88-edef" name="Pelican - D77-Troop Carrier" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Flyer"/>
-            <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR5"/>
-            <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="ASF"/>
-            <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S4"/>
-            <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R-"/>
-            <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I-"/>
-            <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="6-6-5"/>
-            <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="DO"/>
-            <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="e8c8-2452-3fdb-cea8" name="Air Support Missions" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="BR" costTypeId="Build Rating" value="5.0"/>
-        <cost name="pts" costTypeId="points" value="250.0"/>
-        <cost name="C" costTypeId="Character" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e770-cecc-18ad-93d5" name="Riflemen - UNSC Army Infantry Squad" hidden="false" collective="false" categoryEntryId="870a-81aa-e07c-3d01" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="7693-3d74-4a97-63cc" hidden="false" targetId="cb18-b096-7e1d-612b" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1cd7-8878-9ceb-4631" hidden="false" targetId="2ee1-013c-9771-87e0" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="23c8-a53f-77e9-6814" hidden="false" targetId="59fe-dbea-1ffc-b9b9" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="2493-aaee-c131-23c6" name="Weapon Upgrade" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e1ac-bffd-a3d5-0d9b" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="40cd-fbe3-0ee2-c11c" name="One M247 MMG Base" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="19eb-f4a0-6f2f-2e81" name="New InfoLink" hidden="false" targetId="85d6-f3ab-c7f7-4e3d" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="15.0"/>
-                <cost name="C" costTypeId="Character" value="0.0"/>
-                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="655b-396d-3c85-e1b7" name="One Rocket Launchers Base" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="0891-e029-f37b-ca23" name="New InfoLink" hidden="false" targetId="9118-8a39-213d-c594" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="15.0"/>
-                <cost name="C" costTypeId="Character" value="0.0"/>
-                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="120.0"/>
-        <cost name="BR" costTypeId="Build Rating" value="2.0"/>
-        <cost name="C" costTypeId="Character" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6314-5a8b-9c5e-c017" name="Rocket Warthog - M12R Light Anti-Aircraft Vehicle Unit" hidden="false" collective="false" categoryEntryId="0744-a0c8-3431-ff6e" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="Build Rating" value="2">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1514-88e4-472a-b0d2" repeats="1"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="bf63-a8a8-e915-a953" name="Units" hidden="false" collective="false" defaultSelectionEntryId="1514-88e4-472a-b0d2">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c35a-68e9-9fc0-2cdf" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e3c4-475f-9a93-4ebb" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="1514-88e4-472a-b0d2" name="Rocket Warthog - M12R Light Anti-Aircraft Vehicle" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="7a83-56aa-ac8c-2f93" hidden="false" targetId="9a4e-9e98-f97e-9ae3" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="9292-8e3e-8781-e892" hidden="false" targetId="b865-37af-345d-2412" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="125.0"/>
-                <cost name="C" costTypeId="Character" value="0.0"/>
-                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-      <costs>
-        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
-        <cost name="C" costTypeId="Character" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5f31-0dbb-b54c-b04e" name="Scorpion - M808 Main Battle Tank" hidden="false" collective="false" categoryEntryId="0744-a0c8-3431-ff6e" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="b632-2d0f-a4f7-8447" name="New InfoLink" hidden="false" targetId="5ace-dfd5-7059-5d02" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="56e7-9962-dc08-87fa" name="New InfoLink" hidden="false" targetId="8304-2d12-cca2-a6d0" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="89b3-6fd6-4478-b09b" name="New InfoLink" hidden="false" targetId="aa3e-2d1c-864c-f3d3" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
-        <cost name="pts" costTypeId="points" value="250.0"/>
-        <cost name="C" costTypeId="Character" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="089f-ee43-3ba0-fc61" name="Spartan - Special Warfare Asset" hidden="false" collective="false" categoryEntryId="870a-81aa-e07c-3d01" type="model">
-      <profiles>
-        <profile id="3a82-9cb9-7ca5-31b5" name="Spartan - Frag Grenades" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a">
+        <profile id="2efe-eb5c-6701-6d1c" name="Frag Grenades" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1074,261 +746,12 @@
             <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R6&quot;"/>
             <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Blast, Cooldown"/>
             <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
-            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP6"/>
-            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP3"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT1"/>
             <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA0"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="8776-865d-910b-e033" name="Spartan Weapon Drop" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="c385-1d5b-7fb5-2415" hidden="false" targetId="ad83-2420-4bce-c174" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="858c-38b3-d1f6-5bcb" hidden="false" targetId="6437-ded0-021f-8aa4" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="4b1f-4dd6-8fd3-2a8c" hidden="false" targetId="b640-5cc2-0044-86e3" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b84f-7f6d-a42c-504a" hidden="false" targetId="662e-02e0-ffbf-888f" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="190.0"/>
-        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
-        <cost name="C" costTypeId="Character" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2a75-50bb-cfbb-cbab" name="Sun Devil - M808B2 Air Defense System" hidden="false" collective="false" categoryEntryId="0744-a0c8-3431-ff6e" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="7168-0ddf-52d3-9422" name="New InfoLink" hidden="false" targetId="b380-2174-937b-e142" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="7130-272e-29b9-e453" name="New InfoLink" hidden="false" targetId="806b-eb89-8511-a72f" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="f198-8d30-caa4-5f51" name="New InfoLink" hidden="false" targetId="5528-9c8f-295c-73ec" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="BR" costTypeId="Build Rating" value="4.0"/>
-        <cost name="pts" costTypeId="points" value="250.0"/>
-        <cost name="C" costTypeId="Character" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1f45-557d-f755-605d" name="Warthog - M12 Force Application Vehicle Unit" hidden="false" collective="false" categoryEntryId="0744-a0c8-3431-ff6e" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="Build Rating" value="2">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6bde-b36d-c733-77a5" repeats="1"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="8538-b3a4-5a88-fcd8" name="Units" hidden="false" collective="false" defaultSelectionEntryId="6bde-b36d-c733-77a5">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3c82-4dc0-4c3a-dd76" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c31-afb1-7263-3e3d" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="6bde-b36d-c733-77a5" name="Warthog - M12 Force Application Vehicle" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="2999-0d73-5de3-3d16" hidden="false" targetId="c099-d5db-12a6-e64d" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="96d5-4bef-9445-c215" hidden="false" targetId="ccef-5261-af1d-e000" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="120.0"/>
-                <cost name="C" costTypeId="Character" value="0.0"/>
-                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-      <costs>
-        <cost name="BR" costTypeId="Build Rating" value="0.0"/>
-        <cost name="C" costTypeId="Character" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="683c-15ea-dd21-7a50" name="Reacon Team - UNSC Army Sniper Team" hidden="false" collective="false" categoryEntryId="870a-81aa-e07c-3d01" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="c154-8bdd-a36e-7ee5" hidden="false" targetId="351a-9a11-599f-a253" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="f27f-7b7f-5da7-ad9c" hidden="false" targetId="2ee1-013c-9771-87e0" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ed6f-b1ae-2b77-7ac9" hidden="false" targetId="0cf2-1d2f-8567-f2f9" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="724f-f33f-bf78-73d8" name="Weapon Upgrade" hidden="false" collective="false" defaultSelectionEntryId="7019-05e7-2bb7-32a7">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a69a-772c-a5d2-e52d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dae-13e6-a4c2-7b56" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="7019-05e7-2bb7-32a7" name="Sniper Rifle" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="8ec0-4005-28af-47c0" name="New InfoLink" hidden="false" targetId="790d-3ada-f268-6cc2" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs/>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="93ff-7a97-b4d7-568b" name="Weapon Upgrade" hidden="false" collective="false" defaultSelectionEntryId="a180-b08a-9393-0671">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb62-2d71-1fc3-d58d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b044-f4a9-5e20-5de4" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="a180-b08a-9393-0671" name="Sniper Rifle" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="93da-d126-c9fe-a7ac" name="New InfoLink" hidden="false" targetId="790d-3ada-f268-6cc2" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs/>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="160.0"/>
-        <cost name="BR" costTypeId="Build Rating" value="2.0"/>
-        <cost name="C" costTypeId="Character" value="0.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
-  <entryLinks/>
-  <sharedSelectionEntries>
-    <selectionEntry id="2e4e-96d2-f3c0-1eab" name="Officer - UNSC Army Command Unit" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
-      <profiles/>
       <rules>
         <rule id="f7c7-76b3-8a80-d39a" name="Radio Operator" hidden="false">
           <profiles/>
@@ -1338,26 +761,7 @@
           <description>The Commanding Office Loadout may be used by Armoured Units within range as well as Infantry Units.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="59ad-504b-137a-d04e" hidden="false" targetId="2ee1-013c-9771-87e0" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="971e-4435-ff72-242e" hidden="false" targetId="f21a-ccb8-ebc3-813f" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9fa2-497f-ea2f-bd6c" hidden="false" targetId="1c60-98fb-4571-e3cc" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -1530,7 +934,7 @@
       <modifiers>
         <modifier type="increment" field="Build Rating" value="2">
           <repeats>
-            <repeat field="selections" scope="916c-7529-28fc-9f10" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a9f-a349-dfb8-4d10" repeats="1"/>
+            <repeat field="selections" scope="916c-7529-28fc-9f10" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9a9f-a349-dfb8-4d10" repeats="1" roundUp="false"/>
           </repeats>
           <conditions/>
           <conditionGroups/>
@@ -1688,28 +1092,55 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a6b7-5e23-8479-04a0" name="Fire Support - UNSC Army Weapons Unit" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
-      <profiles/>
+      <profiles>
+        <profile id="5c6a-119b-0b7f-de71" name="Frag Grenades" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R6&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Blast, Cooldown"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP3"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT1"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA0"/>
+          </characteristics>
+        </profile>
+        <profile id="0244-340d-327a-d212" name="Fire Support - Infantry Squad" hidden="false" profileTypeId="64a0-7713-dd08-5a9d">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Infantry"/>
+            <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR2"/>
+            <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
+            <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R8/10"/>
+            <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="M1"/>
+            <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-3"/>
+            <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="AO"/>
+            <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="a464-f545-7bb8-d544" name="Standard - Small Arms" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Suppression (+1)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP3"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT1"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="9cbd-692a-be8b-32cc" hidden="false" targetId="cb18-b096-7e1d-612b" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d56f-6fd9-99ab-55a5" hidden="false" targetId="2ee1-013c-9771-87e0" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5bad-f63b-38b8-6084" hidden="false" targetId="59fe-dbea-1ffc-b9b9" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -1855,7 +1286,7 @@
       <modifiers>
         <modifier type="increment" field="Build Rating" value="2">
           <repeats>
-            <repeat field="selections" scope="36a8-6cba-d137-ea87" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4007-b896-6864-7319" repeats="1"/>
+            <repeat field="selections" scope="36a8-6cba-d137-ea87" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4007-b896-6864-7319" repeats="1" roundUp="false"/>
           </repeats>
           <conditions/>
           <conditionGroups/>
@@ -1921,7 +1352,7 @@
       <modifiers>
         <modifier type="increment" field="Build Rating" value="2">
           <repeats>
-            <repeat field="selections" scope="4508-c9de-df42-298e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc51-d748-e869-9bcc" repeats="1"/>
+            <repeat field="selections" scope="4508-c9de-df42-298e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc51-d748-e869-9bcc" repeats="1" roundUp="false"/>
           </repeats>
           <conditions/>
           <conditionGroups/>
@@ -2101,7 +1532,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -2133,7 +1568,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -2145,6 +1584,165 @@
         <cost name="pts" costTypeId="points" value="160.0"/>
         <cost name="BR" costTypeId="Build Rating" value="2.0"/>
         <cost name="C" costTypeId="Character" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5675-3311-9e98-a64a" name="ODST Air Assault Unit - Special Purpose Force" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d599-0130-18ef-093c" name="ODST Air Assault Unit - Special Purpose Force" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Infantry"/>
+            <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR3"/>
+            <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
+            <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
+            <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R6/7"/>
+            <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="2"/>
+            <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-4"/>
+            <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="AO, BH(1), HS(LEA)"/>
+            <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="9cb8-9c22-5d59-ec59" name="ODST Assault - Small Arms" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R15&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1), Suppression (+2)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP4"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT1"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
+          </characteristics>
+        </profile>
+        <profile id="9b99-de19-98a5-f227" name="ODST Assault - Demolition Charges" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R3&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (ARM), Cooldown"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT4"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="57a3-7d00-8932-c9ee" name="Jump Packs" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="7caa-3220-60d7-84be" name="Combat Specialists" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c8a9-d23b-b61a-cf23" name="Officer Upgrade" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13b3-15ac-8a61-37f8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e21a-7f5e-3388-c969" name="One Team Leader Base" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="c6b0-86f3-8ef9-7e93" name="ODST Team Leader Base" hidden="false" profileTypeId="64a0-7713-dd08-5a9d" profileTypeName="Element - Infantry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Infantry"/>
+                    <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR0"/>
+                    <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
+                    <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
+                    <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R5/7"/>
+                    <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="3"/>
+                    <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-4"/>
+                    <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="AO, BH(2), HS(LEA), R"/>
+                    <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="1"/>
+                  </characteristics>
+                </profile>
+                <profile id="5fd9-7e18-be03-e473" name="ODST Leader - Small Arms" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R15&quot;/-"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Point Blank (+1), Suppression (+2)"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP5"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT1"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA3"/>
+                  </characteristics>
+                </profile>
+                <profile id="dcb7-d2a2-f298-c53d" name="ODST Leader - Demolition Charges" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R3&quot;/-"/>
+                    <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (ARM), Cooldown"/>
+                    <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
+                    <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP2"/>
+                    <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT5"/>
+                    <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA0"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="c57d-777a-00c4-5a3b" name="Jump Packs" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </rule>
+                <rule id="3737-bf4d-c98d-0a3d" name="First In" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
+        <cost name="pts" costTypeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2163,37 +1761,6 @@
         <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP3"/>
         <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT1"/>
         <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA0"/>
-      </characteristics>
-    </profile>
-    <profile id="f21a-ccb8-ebc3-813f" name="Officer - Command Unit" hidden="false" profileTypeId="64a0-7713-dd08-5a9d">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Type" characteristicTypeId="3042-33d5-e5ca-996e" value="Character Infantry"/>
-        <characteristic name="Build Rating" characteristicTypeId="c2f2-7f0a-32f4-37b7" value="BR2"/>
-        <characteristic name="Move" characteristicTypeId="a71c-3460-0bd5-85d1" value="M6/9&quot;"/>
-        <characteristic name="Soak" characteristicTypeId="8f99-9d90-0ee7-5d9e" value="S0"/>
-        <characteristic name="React" characteristicTypeId="8199-6003-2847-9797" value="R6/8"/>
-        <characteristic name="Melee" characteristicTypeId="7e67-d86f-5377-b64e" value="M2"/>
-        <characteristic name="Damage" characteristicTypeId="7543-31e5-03f6-f160" value="0-4"/>
-        <characteristic name="Loadouts" characteristicTypeId="45af-dd89-bc47-d2af" value="A(INF), BH(1), CP(12&quot;), HS(LEA), R"/>
-        <characteristic name="Elements" characteristicTypeId="1c7b-2321-f006-d674" value="1"/>
-      </characteristics>
-    </profile>
-    <profile id="1c60-98fb-4571-e3cc" name="Officer - Command Unit - Small Arms" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R10/20&quot;"/>
-        <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Suppression (+1)"/>
-        <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="ALL"/>
-        <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP4"/>
-        <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
-        <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AP3"/>
       </characteristics>
     </profile>
     <profile id="cb18-b096-7e1d-612b" name="Riflemen - Infantry Squad" hidden="false" profileTypeId="64a0-7713-dd08-5a9d">
