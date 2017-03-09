@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="9" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="10" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -696,6 +696,13 @@
       <constraints/>
     </entryLink>
     <entryLink id="e85a-597d-49a3-29de" name="New EntryLink" hidden="false" targetId="5675-3311-9e98-a64a" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="3698-6842-57f1-c1f2" name="New EntryLink" hidden="false" targetId="36a8-6cba-d137-ea87" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1732,6 +1739,8 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1743,6 +1752,7 @@
       <costs>
         <cost name="BR" costTypeId="Build Rating" value="3.0"/>
         <cost name="pts" costTypeId="points" value="180.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
