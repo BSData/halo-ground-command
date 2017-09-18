@@ -1,21 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="9" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="10" battleScribeVersion="2.01" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
     <selectionEntry id="3033-d3b7-a0fa-0f59" name="Generic Force Commander" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="3033-d3b7-a0fa-0f59-1d19-aba0-3ac5-ad1e" targetId="1d19-aba0-3ac5-ad1e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="3033-d3b7-a0fa-0f59-1d19-aba0-3ac5-ad1e" hidden="false" targetId="1d19-aba0-3ac5-ad1e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -26,14 +33,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e59e-417a-49cd-a617" name="Hunting Host Infantry Battlegroup" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="e59e-417a-49cd-a617-2622-52fa-29f7-96bb" targetId="2622-52fa-29f7-96bb" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="e59e-417a-49cd-a617-2622-52fa-29f7-96bb" hidden="false" targetId="2622-52fa-29f7-96bb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8bca-3f5b-5788-02a3" name="1. Requistes" hidden="false" collective="false" type="unit">
           <profiles/>
@@ -44,6 +57,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5961-7358-2b8f-2f58" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fab4-181c-e0f8-f6cf" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="0ce5-5af1-bf94-f414" name="1.1 Character Infantry" hidden="false" collective="false" defaultSelectionEntryId="1031-e54e-1307-990e">
@@ -55,6 +69,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc31-0ddc-532d-1136" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a881-4d26-b4b4-2c25" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -64,6 +79,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -76,6 +92,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5225-1c08-5fcf-c179" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4fe0-2bee-25c7-88d6" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="de71-5742-797c-45f4" name="Seperate Units" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -83,6 +100,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
@@ -95,6 +113,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc8d-0001-87ce-5b10" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="029e-655c-3e50-dbd6" type="min"/>
                       </constraints>
+                      <categoryLinks/>
                     </entryLink>
                     <entryLink id="6973-35f0-8539-79a0" name="New EntryLink" hidden="false" targetId="0328-8755-095b-685a" type="selectionEntry">
                       <profiles/>
@@ -105,6 +124,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="243f-6c4d-70af-020e" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e23-7d3d-2ab1-57e6" type="min"/>
                       </constraints>
+                      <categoryLinks/>
                     </entryLink>
                     <entryLink id="9bfa-e606-39eb-6af9" name="New EntryLink" hidden="false" targetId="0328-8755-095b-685a" type="selectionEntry">
                       <profiles/>
@@ -115,6 +135,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91c2-a291-edc5-ca3c" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a1b-cf61-9f76-24df" type="min"/>
                       </constraints>
+                      <categoryLinks/>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -129,6 +150,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
@@ -141,6 +163,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="36b4-c5c8-3444-2902" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8ba3-4054-5c97-5bab" type="min"/>
                       </constraints>
+                      <categoryLinks/>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -170,6 +193,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d1a-ee08-9511-6c1d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2197-3150-347d-ed7f" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="76b6-3be1-9d08-0dcb" name="2.1 Infantry Units" hidden="false" collective="false">
@@ -181,6 +205,7 @@
                 <constraint field="Character" scope="80a9-6440-4411-53eb" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="358c-9a52-f833-a125" type="max"/>
                 <constraint field="Build Rating" scope="80a9-6440-4411-53eb" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="446f-6db2-0365-01ec" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -190,6 +215,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="7e2c-90a7-2795-9629" name="New EntryLink" hidden="false" targetId="0328-8755-095b-685a" type="selectionEntry">
                   <profiles/>
@@ -197,6 +223,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="d424-74db-3d06-e567" name="New EntryLink" hidden="false" targetId="bb8c-a54a-8dda-a4ae" type="selectionEntry">
                   <profiles/>
@@ -204,6 +231,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="7838-8e64-5df2-a78b" name="New EntryLink" hidden="false" targetId="4348-db42-9be0-c9a8" type="selectionEntry">
                   <profiles/>
@@ -211,6 +239,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="36f8-3034-2c7c-bb17" name="New EntryLink" hidden="false" targetId="7c18-938c-1579-fc8c" type="selectionEntry">
                   <profiles/>
@@ -218,6 +247,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="4327-a1df-286a-2b3c" name="New EntryLink" hidden="false" targetId="383a-bb82-f425-30af" type="selectionEntry">
                   <profiles/>
@@ -225,6 +255,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -245,6 +276,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d1a7-8802-a292-265e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d46c-2f49-07b0-b5ee" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="e34f-575f-7026-fc80" name="2.2 Armoured Units" hidden="false" collective="false">
@@ -255,6 +287,7 @@
               <constraints>
                 <constraint field="Build Rating" scope="ee6e-d575-1705-7d32" value="8.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7ede-0625-8f25-c43b" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -264,6 +297,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="4a3a-0cbc-925f-8e50" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
                   <profiles/>
@@ -271,6 +305,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="d6a6-1991-9b79-a547" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
                   <profiles/>
@@ -278,6 +313,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="e123-5f99-1723-27c8" name="New EntryLink" hidden="false" targetId="fdbb-01b3-1552-9b78" type="selectionEntry">
                   <profiles/>
@@ -285,6 +321,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="d51b-46d8-5fa4-06e1" name="New EntryLink" hidden="false" targetId="566e-52fe-4238-d9ed" type="selectionEntry">
                   <profiles/>
@@ -292,6 +329,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -312,6 +350,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dddf-c9b2-49ae-55cf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c6b4-235e-16a0-bb6d" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="5351-7f83-4f53-c94f" name="2.3 Flyer Units" hidden="false" collective="false">
@@ -322,6 +361,7 @@
               <constraints>
                 <constraint field="Build Rating" scope="0393-b9c1-d60b-053f" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="176b-66e4-8004-cc14" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -331,6 +371,15 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="563b-dc13-0418-467b" name="Seraph - Type 31 Exoatmospheric Strike Fighter" hidden="false" targetId="be53-33fa-1193-d236" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -352,14 +401,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3c32-b495-2855-7a75" name="Siege Host Armoured Battlegroup" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="3c32-b495-2855-7a75-2622-52fa-29f7-96bb" targetId="2622-52fa-29f7-96bb" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="3c32-b495-2855-7a75-2622-52fa-29f7-96bb" hidden="false" targetId="2622-52fa-29f7-96bb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bdcf-0329-9ceb-9ba0" name="1. Requistes" hidden="false" collective="false" type="unit">
           <profiles/>
@@ -369,7 +424,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The Requiste Wraith - Type 26 Assault Gun Carriage in this battlegroup gains the Commanding Presence 8" loadout for free.</description>
+              <description>The Requiste Wraith - Type 26 Assault Gun Carriage in this battlegroup gains the Commanding Presence 8&quot; loadout for free.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -378,6 +433,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d2b2-cbda-6091-19cb" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ab6f-1c2b-8112-760d" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="8eec-ffef-9f53-8f2b" name="1.1 Command Tank" hidden="false" collective="false" defaultSelectionEntryId="0f7c-6251-1293-e845">
@@ -389,6 +445,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3fc0-bd6b-a1a4-97a4" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d3e-d2a1-483e-5213" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -398,6 +455,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -410,6 +468,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7dfc-818b-a9d4-7b4d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb09-034f-5447-24f7" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -419,6 +478,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -431,6 +491,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9222-e90b-611d-ad9f" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7cea-643a-3d7f-aa61" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -440,6 +501,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -460,6 +522,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="833d-e15e-8db6-911b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="16a1-47de-ece6-ce71" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="0d5b-129b-95c8-b3c1" name="2.1 Infantry Units" hidden="false" collective="false">
@@ -471,6 +534,7 @@
                 <constraint field="Build Rating" scope="a7c8-c50e-3008-7cea" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="40d1-4a6e-d7dc-4df6" type="max"/>
                 <constraint field="Character" scope="a7c8-c50e-3008-7cea" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e6f-48cc-d6fa-a203" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -480,6 +544,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="f618-2bfb-b0a9-bf84" name="New EntryLink" hidden="false" targetId="0328-8755-095b-685a" type="selectionEntry">
                   <profiles/>
@@ -487,6 +552,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="d5ab-092c-7c50-157d" name="New EntryLink" hidden="false" targetId="bb8c-a54a-8dda-a4ae" type="selectionEntry">
                   <profiles/>
@@ -494,6 +560,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="24f4-c60e-21d0-80d0" name="New EntryLink" hidden="false" targetId="4348-db42-9be0-c9a8" type="selectionEntry">
                   <profiles/>
@@ -501,6 +568,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="bc6f-fc21-5efa-e813" name="New EntryLink" hidden="false" targetId="383a-bb82-f425-30af" type="selectionEntry">
                   <profiles/>
@@ -508,6 +576,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -528,6 +597,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6b60-579f-55c1-f69d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f56a-8f4a-15c4-d312" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="5c4d-5237-0dac-2c77" name="2.2 Armoured Units" hidden="false" collective="false">
@@ -538,6 +608,7 @@
               <constraints>
                 <constraint field="Build Rating" scope="f09b-29fa-c52b-0537" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a96e-c62c-645e-6c6e" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -547,6 +618,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="4eb7-45b1-f32b-6f7f" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
                   <profiles/>
@@ -554,6 +626,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="c27d-74ed-bda5-fef2" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
                   <profiles/>
@@ -561,6 +634,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="b703-d935-5e48-960f" name="New EntryLink" hidden="false" targetId="566e-52fe-4238-d9ed" type="selectionEntry">
                   <profiles/>
@@ -568,6 +642,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="73a5-f490-5a3e-dd55" name="New EntryLink" hidden="false" targetId="fdbb-01b3-1552-9b78" type="selectionEntry">
                   <profiles/>
@@ -575,6 +650,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -595,6 +671,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e6b-89b2-c031-21d0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4698-26cc-2c8d-2ca0" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="bd05-5609-1cfc-3fe2" name="2.3 Flyer Units" hidden="false" collective="false">
@@ -605,6 +682,7 @@
               <constraints>
                 <constraint field="Build Rating" scope="fb58-54d2-5453-cd6d" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="304e-cf3c-921f-2512" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -614,6 +692,15 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="c902-090c-a265-20ad" name="Seraph - Type 31 Exoatmospheric Strike Fighter" hidden="false" targetId="be53-33fa-1193-d236" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -635,9 +722,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="60d8-b011-f8dd-0b69" name="Spectral Host Specialist Battlegroup" book="Core" page="32" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="60d8-b011-f8dd-0b69-7172-8a4b-611a-9f2c" targetId="7172-8a4b-611a-9f2c" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules>
         <rule id="8e97-0e65-58c7-2d30" name="Swift Death" hidden="false">
@@ -652,7 +736,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>This Battlegroup is shown only as an example in the Core Rule Book on Page 32 and cannot be assumed as correct. Nor is there any information on the special rule: "Swift Death"</description>
+          <description>This Battlegroup is shown only as an example in the Core Rule Book on Page 32 and cannot be assumed as correct. Nor is there any information on the special rule: &quot;Swift Death&quot;</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -660,6 +744,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39db-25a4-b097-2643" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="60d8-b011-f8dd-0b69-7172-8a4b-611a-9f2c" hidden="false" targetId="7172-8a4b-611a-9f2c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="52a3-3246-fd53-5d3b" name="2.1 Flyer Options" hidden="false" collective="false" type="unit">
           <profiles/>
@@ -670,6 +763,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2738-b9be-8bb8-75e8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f2f-39f4-5e40-82ae" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="5bcb-83bf-4d50-fd89" name="2.1 Flyer Units" hidden="false" collective="false">
@@ -680,15 +774,25 @@
               <constraints>
                 <constraint field="Build Rating" scope="52a3-3246-fd53-5d3b" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5e6a-965d-0c95-e218" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="fc0c-441e-2300-a43c" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
+                <entryLink id="fc0c-441e-2300-a43c" name="Phantom - Type 52 Troop Carrier" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="fbad-292b-1466-36fe" name="Seraph - Type 31 Exoatmospheric Strike Fighter" hidden="false" targetId="be53-33fa-1193-d236" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -709,6 +813,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a27d-f07f-2fce-b7c2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9eb0-859a-cddc-fb2e" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="f295-70ea-9027-d21e" name="1.1 Elite Ghosts" hidden="false" collective="false" defaultSelectionEntryId="2ce2-3eef-10c1-e65c">
@@ -720,6 +825,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="63a4-a85e-4bbc-7082" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="44a4-20c1-0836-030a" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -729,6 +835,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -741,6 +848,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa1a-9f90-e2f6-3754" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f95f-d481-e97d-2b2d" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -750,6 +858,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -762,6 +871,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f5e4-0f79-c7b8-493b" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="013d-16a5-3292-ee9a" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -771,6 +881,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -792,14 +903,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3487-5e3b-d42f-5494" name="Generic Force Commander" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="3487-5e3b-d42f-5494-cefc-8143-dc20-9bf8" targetId="cefc-8143-dc20-9bf8" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="3487-5e3b-d42f-5494-cefc-8143-dc20-9bf8" hidden="false" targetId="cefc-8143-dc20-9bf8" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -812,134 +929,228 @@
   </selectionEntries>
   <entryLinks>
     <entryLink id="5fbd-29bc-bccd-9303" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="5fbd-29bc-bccd-9303-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="5fbd-29bc-bccd-9303-0744-a0c8-3431-ff6e" hidden="false" targetId="0744-a0c8-3431-ff6e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="f9d5-8e77-2a6d-e630" name="New EntryLink" hidden="false" targetId="fdbb-01b3-1552-9b78" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="f9d5-8e77-2a6d-e630-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="f9d5-8e77-2a6d-e630-0744-a0c8-3431-ff6e" hidden="false" targetId="0744-a0c8-3431-ff6e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="b0f3-3537-3d39-2dba" name="New EntryLink" hidden="false" targetId="bb8c-a54a-8dda-a4ae" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="b0f3-3537-3d39-2dba-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="b0f3-3537-3d39-2dba-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="584f-8e8d-86d3-63ad" name="New EntryLink" hidden="false" targetId="4348-db42-9be0-c9a8" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="584f-8e8d-86d3-63ad-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="584f-8e8d-86d3-63ad-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="e457-92c0-6d32-e07f" name="New EntryLink" hidden="false" targetId="0328-8755-095b-685a" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="e457-92c0-6d32-e07f-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="e457-92c0-6d32-e07f-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="3527-163d-4486-f707" name="New EntryLink" hidden="false" targetId="ccaa-1ab3-b6b3-aea0" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="3527-163d-4486-f707-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="3527-163d-4486-f707-0744-a0c8-3431-ff6e" hidden="false" targetId="0744-a0c8-3431-ff6e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="1588-135e-9bb1-9ed2" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="1588-135e-9bb1-9ed2-7c35-1431-7aeb-f459" targetId="7c35-1431-7aeb-f459" primary="true"/>
-</categoryLinks>
+    <entryLink id="1588-135e-9bb1-9ed2" name="Phantom - Type 52 Troop Carrier" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="1588-135e-9bb1-9ed2-7c35-1431-7aeb-f459" hidden="false" targetId="7c35-1431-7aeb-f459" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="f65c-de96-aaf9-f7df" name="New EntryLink" hidden="false" targetId="586d-1a5c-212e-ff14" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="f65c-de96-aaf9-f7df-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="f65c-de96-aaf9-f7df-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="f800-b1e6-3fd4-a30f" name="New EntryLink" hidden="false" targetId="566e-52fe-4238-d9ed" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="f800-b1e6-3fd4-a30f-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="f800-b1e6-3fd4-a30f-0744-a0c8-3431-ff6e" hidden="false" targetId="0744-a0c8-3431-ff6e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="976a-ad5c-c87e-6480" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="976a-ad5c-c87e-6480-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="976a-ad5c-c87e-6480-0744-a0c8-3431-ff6e" hidden="false" targetId="0744-a0c8-3431-ff6e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="00b3-aae8-ecb4-9243" name="New EntryLink" hidden="false" targetId="cc52-c4ce-5e31-f9a8" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="00b3-aae8-ecb4-9243-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="00b3-aae8-ecb4-9243-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="4bf2-9fb3-38e1-0f32" name="New EntryLink" hidden="false" targetId="7c18-938c-1579-fc8c" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="4bf2-9fb3-38e1-0f32-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="4bf2-9fb3-38e1-0f32-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="bc13-cb46-ce87-9cba" name="New EntryLink" hidden="false" targetId="383a-bb82-f425-30af" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="bc13-cb46-ce87-9cba-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="bc13-cb46-ce87-9cba-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4b90-ce1b-37dd-824c" name="Seraph - Type 31 Exoatmospheric Strike Fighter" hidden="false" targetId="be53-33fa-1193-d236" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="88d3-d5ee-8c19-2539" name="New CategoryLink" hidden="false" targetId="7c35-1431-7aeb-f459" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -957,6 +1168,7 @@
         </modifier>
       </modifiers>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="3f22-41a9-5cd5-a3ed" name="Units" hidden="false" collective="false" defaultSelectionEntryId="c45f-b860-69a9-18ca">
@@ -968,6 +1180,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd60-7488-03ae-3d7e" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0325-54b3-262d-d650" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="c45f-b860-69a9-18ca" name="Scout Ghost - Type 32 Rapid Attack Vehicle" hidden="false" collective="false" type="model">
               <profiles>
@@ -1014,6 +1227,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1087,6 +1301,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1148,6 +1363,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="7271-6f31-8173-e9ea" name="Weapon Upgrade" hidden="false" collective="false">
@@ -1158,6 +1374,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ca6-216e-ddf7-31fa" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="507e-ea88-0fdd-3745" name="One Fuel Rod Cannons Base" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -1180,6 +1397,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1201,6 +1419,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e728-57da-83d7-b1ec" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="028d-63fc-d1e3-8e93" name="One Elite Base" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -1254,6 +1473,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1327,6 +1547,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="25b0-731d-77ce-ece0" name="Weapon Upgrade" hidden="false" collective="false">
@@ -1337,6 +1558,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="75c7-e7f5-4805-b312" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="baf5-1092-a691-0196" name="One Fuel Rod Cannons Base" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -1359,6 +1581,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1380,6 +1603,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="30ad-49b1-fadb-54d2" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="ae6f-c39f-61b4-9e42" name="One Elite Base" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -1433,6 +1657,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1511,6 +1736,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1579,6 +1805,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1640,6 +1867,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1708,6 +1936,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1731,6 +1960,7 @@
         </modifier>
       </modifiers>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="d8c3-5fc5-4d75-74b3" name="Units" hidden="false" collective="false" defaultSelectionEntryId="cda4-61ce-40e0-8cc3">
@@ -1742,6 +1972,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="02b7-c7d6-5abf-873d" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bc11-f6cf-6138-a4c0" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="cda4-61ce-40e0-8cc3" name="Storm Ghost - Type 32 Rapid Attack Vehicle" hidden="false" collective="false" type="model">
               <profiles>
@@ -1788,6 +2019,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1854,6 +2086,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1922,6 +2155,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1983,6 +2217,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -2057,6 +2292,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="cbbd-baa1-1aa8-f403" name="Officer Upgrade" hidden="false" collective="false">
@@ -2067,6 +2303,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="533f-97cf-5a53-6dd2" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="0511-863a-ba40-a118" name="One Elite Ultra Officer Base" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -2127,11 +2364,14 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="30.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2144,6 +2384,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="896d-3060-62fc-3414" name="Death From Above" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -2160,11 +2401,14 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ce7-dabd-c3d9-71a4" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="C" costTypeId="Character" value="0.0"/>
+                <cost name="BR" costTypeId="Build Rating" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2176,6 +2420,62 @@
       <costs>
         <cost name="BR" costTypeId="Build Rating" value="3.0"/>
         <cost name="pts" costTypeId="points" value="180.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be53-33fa-1193-d236" name="Seraph - Type 31 Exoatmospheric Strike Fighter" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="9f79-ab53-c1ba-97a9" name="Seraph - Type 31 Exoatmospheric Strike Fighter" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="FLYER"/>
+            <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR3"/>
+            <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="ASF"/>
+            <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S6"/>
+            <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R-"/>
+            <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I-"/>
+            <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="5-4-3"/>
+            <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value=""/>
+            <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+          </characteristics>
+        </profile>
+        <profile id="cb0a-ede6-f2fc-54ce" name="Seraph - Heavy Plasma Cannons" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R20&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Devastating (ALL), Point Blank (+1)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP13"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT9"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA13"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="eb7f-3735-9e18-dd92" name="Air Support Missions" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
+        <cost name="pts" costTypeId="points" value="180.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
