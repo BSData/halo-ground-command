@@ -1,21 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="10" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="11" battleScribeVersion="2.01" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
     <selectionEntry id="c7f5-a544-4e25-2960" name="UNSC Mechanised Infantry Battlegroup" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="c7f5-a544-4e25-2960-2622-52fa-29f7-96bb" targetId="2622-52fa-29f7-96bb" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="c7f5-a544-4e25-2960-2622-52fa-29f7-96bb" hidden="false" targetId="2622-52fa-29f7-96bb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="be72-7e28-42f6-b93c" name="1. Requistes" hidden="false" collective="false" type="unit">
           <profiles/>
@@ -26,6 +33,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d2e-2601-c3d9-fe70" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="796a-7578-e2a1-ef98" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="93aa-90bc-3a8e-a146" name="1.1 Character Infantry" hidden="false" collective="false" defaultSelectionEntryId="074e-8d96-f012-b827">
@@ -37,6 +45,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cb29-07e9-275f-f3d5" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="578d-5dce-0ba3-9a20" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -46,6 +55,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -58,6 +68,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f5e-9a7d-5c1a-2ce1" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c159-1ade-ae2e-8296" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="2e4b-f923-e905-b32f" name="Seperate Units" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -65,6 +76,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
@@ -77,6 +89,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5aaf-98fd-26f3-67f4" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfd0-3b0c-2edc-1f65" type="min"/>
                       </constraints>
+                      <categoryLinks/>
                     </entryLink>
                     <entryLink id="7cdf-36ae-c2e7-213b" name="New EntryLink" hidden="false" targetId="e6d7-6cf9-feda-458c" type="selectionEntry">
                       <profiles/>
@@ -87,6 +100,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9144-5927-3dcd-6bd2" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e4e9-9825-b946-45e5" type="min"/>
                       </constraints>
+                      <categoryLinks/>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -101,6 +115,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks>
@@ -113,6 +128,7 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6f8-4153-d484-f333" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bcef-f418-c7d1-1f8c" type="min"/>
                       </constraints>
+                      <categoryLinks/>
                     </entryLink>
                   </entryLinks>
                   <costs>
@@ -142,6 +158,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ee5-f2a6-a15e-705b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4d66-d47e-3890-6987" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="ae58-fe4b-cea8-d26e" name="2.1 Infantry Units" hidden="false" collective="false">
@@ -153,6 +170,7 @@
                 <constraint field="Build Rating" scope="185d-56e5-c61b-5edd" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="781c-b8c4-15a0-4774" type="max"/>
                 <constraint field="Character" scope="185d-56e5-c61b-5edd" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9f5b-365d-3b83-4f76" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -162,6 +180,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="a184-d404-1ee6-97f9" name="New EntryLink" hidden="false" targetId="a6b7-5e23-8479-04a0" type="selectionEntry">
                   <profiles/>
@@ -169,6 +188,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="b9b5-42ba-c2da-c5b2" name="New EntryLink" hidden="false" targetId="977c-445b-7cbe-11dd" type="selectionEntry">
                   <profiles/>
@@ -176,6 +196,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="1fa3-4d66-8f47-a5be" name="New EntryLink" hidden="false" targetId="bc85-0e92-3e0c-c0fe" type="selectionEntry">
                   <profiles/>
@@ -183,6 +204,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="99a1-5c47-e72a-fb01" name="New EntryLink" hidden="false" targetId="5675-3311-9e98-a64a" type="selectionEntry">
                   <profiles/>
@@ -190,6 +212,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -210,6 +233,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b86-f63d-66c6-a00d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c4b-e0a2-21d8-3506" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="7082-5101-a31c-f5d2" name="2.2 Armoured Units" hidden="false" collective="false">
@@ -220,6 +244,7 @@
               <constraints>
                 <constraint field="Build Rating" scope="977d-efc8-8f17-4e1b" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="21b6-c305-1a04-fbb7" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -229,6 +254,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="9e44-545a-a0d4-da2e" name="New EntryLink" hidden="false" targetId="36a8-6cba-d137-ea87" type="selectionEntry">
                   <profiles/>
@@ -236,6 +262,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="76d5-91d7-9549-e274" name="New EntryLink" hidden="false" targetId="4508-c9de-df42-298e" type="selectionEntry">
                   <profiles/>
@@ -243,6 +270,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="d43f-3153-9460-1880" name="New EntryLink" hidden="false" targetId="2260-537b-59d0-5a73" type="selectionEntry">
                   <profiles/>
@@ -250,6 +278,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="353a-6c67-32fd-b4dc" name="New EntryLink" hidden="false" targetId="df7d-e83b-c37e-919d" type="selectionEntry">
                   <profiles/>
@@ -257,6 +286,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -277,6 +307,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c50-89b7-408c-314c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de99-887f-5887-60e9" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="1e81-6a09-f830-d40b" name="2.3 Flyer Units" hidden="false" collective="false">
@@ -287,6 +318,7 @@
               <constraints>
                 <constraint field="Build Rating" scope="7e7c-5804-a59b-9513" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c77-82f9-15ef-f4c3" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -296,6 +328,15 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="fc1d-0dd9-5b16-3f75" name="Longsword - C709 Strike Fighter" hidden="false" targetId="fc7b-30df-5ea9-7b57" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -317,14 +358,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9800-f5ea-3898-bd85" name="Generic Commander" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="9800-f5ea-3898-bd85-1d19-aba0-3ac5-ad1e" targetId="1d19-aba0-3ac5-ad1e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="9800-f5ea-3898-bd85-1d19-aba0-3ac5-ad1e" hidden="false" targetId="1d19-aba0-3ac5-ad1e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -335,14 +382,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7534-e40d-1e61-2d5c" name="UNSC Standard Armoured Battlegroup" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="7534-e40d-1e61-2d5c-2622-52fa-29f7-96bb" targetId="2622-52fa-29f7-96bb" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="7534-e40d-1e61-2d5c-2622-52fa-29f7-96bb" hidden="false" targetId="2622-52fa-29f7-96bb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="58ae-f401-24d5-e8fb" name="1. Requistes" hidden="false" collective="false" type="unit">
           <profiles/>
@@ -352,7 +405,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The Requiste Scorpion Battle Tank becomes the Group Commander and gains the Commanding Presence 8" loadout for free.</description>
+              <description>The Requiste Scorpion Battle Tank becomes the Group Commander and gains the Commanding Presence 8&quot; loadout for free.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -361,6 +414,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="451f-f901-202c-c66b" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d995-20ff-6f99-1cb8" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="1f30-076f-03da-561b" name="1.1 Command Tank" hidden="false" collective="false" defaultSelectionEntryId="0a44-8431-ab6b-2f6a">
@@ -372,6 +426,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2dea-c30a-f741-8dd0" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6f1-6e9c-5707-9fd2" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -381,6 +436,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -393,6 +449,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9e1d-cef0-a7ef-7459" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a848-893e-afba-5f75" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -402,6 +459,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -414,6 +472,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a0f3-6703-ca12-f6ae" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb6e-9847-2592-3f1b" type="min"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -423,6 +482,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -443,6 +503,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f952-a172-b9df-dbc1" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2de4-53d1-7004-8ccc" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="eeba-4025-77fc-c3f8" name="2.3 Flyer Units" hidden="false" collective="false">
@@ -453,6 +514,7 @@
               <constraints>
                 <constraint field="Build Rating" scope="27b5-16ad-d72d-69e5" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a783-f409-1ef2-ec9d" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -462,6 +524,15 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="7967-bb22-2240-c4be" name="Longsword - C709 Strike Fighter" hidden="false" targetId="fc7b-30df-5ea9-7b57" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -482,6 +553,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1e8e-8b6e-a0c1-5c73" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6455-2fa8-8ae1-cbfe" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="d632-c739-c9b6-dfd3" name="2.1 Infantry Units" hidden="false" collective="false">
@@ -493,6 +565,7 @@
                 <constraint field="Build Rating" scope="1fdd-2dac-7bc3-a0aa" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a62b-ab78-80c8-1e0e" type="max"/>
                 <constraint field="Character" scope="1fdd-2dac-7bc3-a0aa" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="935a-8dda-eafe-9090" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -502,6 +575,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="4609-e37c-a90e-4e07" name="New EntryLink" hidden="false" targetId="a6b7-5e23-8479-04a0" type="selectionEntry">
                   <profiles/>
@@ -509,6 +583,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="22c5-7542-40c5-5e99" name="New EntryLink" hidden="false" targetId="bc85-0e92-3e0c-c0fe" type="selectionEntry">
                   <profiles/>
@@ -516,6 +591,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="e83c-eb3c-8644-084a" name="New EntryLink" hidden="false" targetId="5675-3311-9e98-a64a" type="selectionEntry">
                   <profiles/>
@@ -523,6 +599,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -543,6 +620,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2dc7-1b04-0117-c226" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="adbc-fe51-a6f1-2527" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="d0f5-e7ff-fe99-f6fd" name="2.2 Armoured Units" hidden="false" collective="false">
@@ -553,6 +631,7 @@
               <constraints>
                 <constraint field="Build Rating" scope="9528-ba8e-1f49-5066" value="10.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af2e-ff59-a7d5-389c" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
@@ -562,6 +641,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="a28e-5fc6-d11a-4218" name="New EntryLink" hidden="false" targetId="36a8-6cba-d137-ea87" type="selectionEntry">
                   <profiles/>
@@ -569,6 +649,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="86f0-b5b9-8b9c-84c9" name="New EntryLink" hidden="false" targetId="4508-c9de-df42-298e" type="selectionEntry">
                   <profiles/>
@@ -576,6 +657,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="ee5b-48d6-3015-ba8c" name="New EntryLink" hidden="false" targetId="2260-537b-59d0-5a73" type="selectionEntry">
                   <profiles/>
@@ -583,6 +665,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
                 <entryLink id="b211-166c-6eba-6fe5" name="New EntryLink" hidden="false" targetId="df7d-e83b-c37e-919d" type="selectionEntry">
                   <profiles/>
@@ -590,6 +673,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <constraints/>
+                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -611,14 +695,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3435-3e97-c861-1566" name="Generic Commander" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="3435-3e97-c861-1566-cefc-8143-dc20-9bf8" targetId="cefc-8143-dc20-9bf8" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="3435-3e97-c861-1566-cefc-8143-dc20-9bf8" hidden="false" targetId="cefc-8143-dc20-9bf8" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -631,134 +721,228 @@
   </selectionEntries>
   <entryLinks>
     <entryLink id="7cf1-8936-eec9-3b95" name="New EntryLink" hidden="false" targetId="2e4e-96d2-f3c0-1eab" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="7cf1-8936-eec9-3b95-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="7cf1-8936-eec9-3b95-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="65fb-3f02-24d0-efc5" name="New EntryLink" hidden="false" targetId="a6b7-5e23-8479-04a0" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="65fb-3f02-24d0-efc5-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
+    <entryLink id="65fb-3f02-24d0-efc5" name="Fire Support - UNSC Army Weapons Unit" hidden="false" targetId="a6b7-5e23-8479-04a0" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="65fb-3f02-24d0-efc5-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="7aef-e07b-abb6-01cb" name="New EntryLink" hidden="false" targetId="2e4e-96d2-f3c0-1eab" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="7aef-e07b-abb6-01cb-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="7aef-e07b-abb6-01cb-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="6bcd-4d27-7c27-205b" name="New EntryLink" hidden="false" targetId="50e5-dc63-1437-5927" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="6bcd-4d27-7c27-205b-7c35-1431-7aeb-f459" targetId="7c35-1431-7aeb-f459" primary="true"/>
-</categoryLinks>
+    <entryLink id="6bcd-4d27-7c27-205b" name="Pelican - D77-Troop Carrier" hidden="false" targetId="50e5-dc63-1437-5927" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="6bcd-4d27-7c27-205b-7c35-1431-7aeb-f459" hidden="false" targetId="7c35-1431-7aeb-f459" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="b348-80fa-8af5-97c7" name="New EntryLink" hidden="false" targetId="916c-7529-28fc-9f10" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="b348-80fa-8af5-97c7-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="b348-80fa-8af5-97c7-0744-a0c8-3431-ff6e" hidden="false" targetId="0744-a0c8-3431-ff6e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="017a-c436-f3d5-5656" name="New EntryLink" hidden="false" targetId="df7d-e83b-c37e-919d" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="017a-c436-f3d5-5656-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="017a-c436-f3d5-5656-0744-a0c8-3431-ff6e" hidden="false" targetId="0744-a0c8-3431-ff6e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="3dfe-f217-0460-bfa8" name="New EntryLink" hidden="false" targetId="2260-537b-59d0-5a73" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="3dfe-f217-0460-bfa8-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="3dfe-f217-0460-bfa8-0744-a0c8-3431-ff6e" hidden="false" targetId="0744-a0c8-3431-ff6e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="5145-b005-ddc6-db14" name="New EntryLink" hidden="false" targetId="e6d7-6cf9-feda-458c" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="5145-b005-ddc6-db14-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="5145-b005-ddc6-db14-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="4cfb-f034-468d-b801" name="New EntryLink" hidden="false" targetId="4508-c9de-df42-298e" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="4cfb-f034-468d-b801-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="4cfb-f034-468d-b801-0744-a0c8-3431-ff6e" hidden="false" targetId="0744-a0c8-3431-ff6e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="dd98-3f54-f2d6-f99d" name="New EntryLink" hidden="false" targetId="977c-445b-7cbe-11dd" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="dd98-3f54-f2d6-f99d-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="dd98-3f54-f2d6-f99d-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
     <entryLink id="0a45-e305-8433-2b2e" name="New EntryLink" hidden="false" targetId="bc85-0e92-3e0c-c0fe" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="0a45-e305-8433-2b2e-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="0a45-e305-8433-2b2e-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="e85a-597d-49a3-29de" name="New EntryLink" hidden="false" targetId="5675-3311-9e98-a64a" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="e85a-597d-49a3-29de-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
-</categoryLinks>
+    <entryLink id="e85a-597d-49a3-29de" name="ODST Air Assault Unit - Special Purpose Force" hidden="false" targetId="5675-3311-9e98-a64a" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="e85a-597d-49a3-29de-870a-81aa-e07c-3d01" hidden="false" targetId="870a-81aa-e07c-3d01" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
-    <entryLink id="3698-6842-57f1-c1f2" name="New EntryLink" hidden="false" targetId="36a8-6cba-d137-ea87" type="selectionEntry">
-<categoryLinks>
-<categoryLink id="3698-6842-57f1-c1f2-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
-</categoryLinks>
+    <entryLink id="3698-6842-57f1-c1f2" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle Unit" hidden="false" targetId="36a8-6cba-d137-ea87" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="3698-6842-57f1-c1f2-0744-a0c8-3431-ff6e" hidden="false" targetId="0744-a0c8-3431-ff6e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b336-9159-2bda-5866" name="Longsword - C709 Strike Fighter" hidden="false" targetId="fc7b-30df-5ea9-7b57" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="49d8-e067-f1e4-f328" name="New CategoryLink" hidden="false" targetId="7c35-1431-7aeb-f459" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -822,6 +1006,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -856,6 +1041,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="0c4d-7b53-52a2-6292" name="Weapon Upgrade" hidden="false" collective="false">
@@ -866,6 +1052,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f9d-330b-8949-ae0c" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="3420-026d-1a59-ebf0" name="One M247 MMG Base" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -880,6 +1067,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -902,6 +1090,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -976,6 +1165,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -999,6 +1189,7 @@
         </modifier>
       </modifiers>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="441f-7554-a740-b198" name="Units" hidden="false" collective="false" defaultSelectionEntryId="9a9f-a349-dfb8-4d10">
@@ -1010,6 +1201,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f48a-55be-8ebb-1720" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e2d-9dd6-9d41-1bc5" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="9a9f-a349-dfb8-4d10" name="Warthog - M12 Force Application Vehicle" hidden="false" collective="false" type="model">
               <profiles/>
@@ -1030,6 +1222,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1082,6 +1275,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="11ee-ed3d-4177-928a" name="Unit Upgrade" hidden="false" collective="false">
@@ -1092,6 +1286,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="14a0-85e2-a9a9-617a" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="c84d-9e29-374d-5770" name="One M247 MMG" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1106,6 +1301,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1128,6 +1324,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1201,6 +1398,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="43f7-c6ec-ba9b-cc4e" name="Unit Upgrade" hidden="false" collective="false">
@@ -1212,6 +1410,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4705-c585-c55f-5b95" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8571-85a4-b4a9-c504" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="9a35-0950-8399-2575" name="One M247 MMG" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1226,6 +1425,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1248,6 +1448,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1328,6 +1529,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1351,6 +1553,7 @@
         </modifier>
       </modifiers>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="3813-08b2-fb19-bcb3" name="Units" hidden="false" collective="false" defaultSelectionEntryId="4007-b896-6864-7319">
@@ -1362,6 +1565,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8bc1-2f8a-b67f-2bcf" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa2d-5ad4-d2cd-62ad" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="4007-b896-6864-7319" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle" hidden="false" collective="false" type="model">
               <profiles/>
@@ -1382,6 +1586,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1417,6 +1622,7 @@
         </modifier>
       </modifiers>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="4b14-4492-7ef5-ae4d" name="Units" hidden="false" collective="false" defaultSelectionEntryId="fc51-d748-e869-9bcc">
@@ -1428,6 +1634,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ddc-70bf-c1f4-0c87" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eba4-64ab-24ee-ef31" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="fc51-d748-e869-9bcc" name="Rocket Warthog - M12R Light Anti-Aircraft Vehicle" hidden="false" collective="false" type="model">
               <profiles/>
@@ -1448,6 +1655,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1494,6 +1702,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1528,6 +1737,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1562,6 +1772,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="214c-618b-de9d-b63f" name="Weapon Upgrade" hidden="false" collective="false" defaultSelectionEntryId="6dbe-4e22-be3c-5ace">
@@ -1573,6 +1784,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="160a-1901-30b4-639f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0362-b869-dafd-4be9" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="6dbe-4e22-be3c-5ace" name="Sniper Rifle" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1587,6 +1799,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1609,6 +1822,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d50a-1b39-f8f5-0470" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82c0-1551-4333-9829" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="e04f-118d-ded2-17e1" name="Sniper Rifle" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -1623,6 +1837,7 @@
               </infoLinks>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1709,6 +1924,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="c8a9-d23b-b61a-cf23" name="Officer Upgrade" hidden="false" collective="false">
@@ -1719,6 +1935,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13b3-15ac-8a61-37f8" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="e21a-7f5e-3388-c969" name="One Team Leader Base" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -1785,6 +2002,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -1803,6 +2021,75 @@
       <costs>
         <cost name="BR" costTypeId="Build Rating" value="3.0"/>
         <cost name="pts" costTypeId="points" value="180.0"/>
+        <cost name="C" costTypeId="Character" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc7b-30df-5ea9-7b57" name="Longsword - C709 Strike Fighter" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6887-79a5-c31e-232d" name="Longsword - Guided Missiles" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R15&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deversating (ARM)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP4"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT12"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA2"/>
+          </characteristics>
+        </profile>
+        <profile id="9ff5-21a0-5953-6e27" name="Longsword - Rapid Fire Coilguns" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a" profileTypeName="Unit Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="b105-0b2d-c20d-2f77" value="R15&quot;/-"/>
+            <characteristic name="Weapon Loadouts" characteristicTypeId="7758-d23e-b312-134e" value="Deverstating (AIR)"/>
+            <characteristic name="Arc" characteristicTypeId="dc58-10d6-a1f0-3f09" value="FRONT"/>
+            <characteristic name="AP" characteristicTypeId="b639-e494-578f-979d" value="AP4"/>
+            <characteristic name="AT" characteristicTypeId="9217-7144-1e94-683d" value="AT2"/>
+            <characteristic name="AA" characteristicTypeId="70d2-0215-d018-d05e" value="AA12"/>
+          </characteristics>
+        </profile>
+        <profile id="e81a-e36b-6f6c-5b4f" name="Longsword - C709 Strike Fighter" hidden="false" profileTypeId="0c2c-c815-5df5-7954" profileTypeName="Element - Vehicles">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="044c-3a55-d55b-1709" value="Flyer"/>
+            <characteristic name="Build Rating" characteristicTypeId="ae01-7a1d-b8d7-2e44" value="BR3"/>
+            <characteristic name="Move" characteristicTypeId="7e97-86ba-d955-1777" value="ASF"/>
+            <characteristic name="Soak" characteristicTypeId="3edc-f3a4-a208-a322" value="S5"/>
+            <characteristic name="React" characteristicTypeId="ce4c-bb8e-a67d-95d3" value="R-"/>
+            <characteristic name="Impact" characteristicTypeId="8fff-2157-7e90-7dd9" value="I-"/>
+            <characteristic name="Damage" characteristicTypeId="337d-b81a-5845-7b97" value="5-4-4"/>
+            <characteristic name="Loadouts" characteristicTypeId="4e40-04b5-91dd-f57e" value="DO"/>
+            <characteristic name="Elements" characteristicTypeId="8db8-7b95-ebfb-1ed2" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bb6f-4c89-4bfb-aca5" name="Air Support Missions" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="BR" costTypeId="Build Rating" value="3.0"/>
+        <cost name="pts" costTypeId="points" value="175.0"/>
         <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
