@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="9" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="48fa-9813-1dc1-d3af" name="Covenant Ground Forces" revision="9" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="3033-d3b7-a0fa-0f59" name="Generic Force Commander" hidden="false" collective="false" categoryEntryId="1d19-aba0-3ac5-ad1e" type="unit">
+    <selectionEntry id="3033-d3b7-a0fa-0f59" name="Generic Force Commander" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="3033-d3b7-a0fa-0f59-1d19-aba0-3ac5-ad1e" targetId="1d19-aba0-3ac5-ad1e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -22,7 +25,10 @@
         <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e59e-417a-49cd-a617" name="Hunting Host Infantry Battlegroup" hidden="false" collective="false" categoryEntryId="2622-52fa-29f7-96bb" type="unit">
+    <selectionEntry id="e59e-417a-49cd-a617" name="Hunting Host Infantry Battlegroup" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="e59e-417a-49cd-a617-2622-52fa-29f7-96bb" targetId="2622-52fa-29f7-96bb" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -345,7 +351,10 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3c32-b495-2855-7a75" name="Siege Host Armoured Battlegroup" hidden="false" collective="false" categoryEntryId="2622-52fa-29f7-96bb" type="unit">
+    <selectionEntry id="3c32-b495-2855-7a75" name="Siege Host Armoured Battlegroup" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="3c32-b495-2855-7a75-2622-52fa-29f7-96bb" targetId="2622-52fa-29f7-96bb" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -360,7 +369,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The Requiste Wraith - Type 26 Assault Gun Carriage in this battlegroup gains the Commanding Presence 8&quot; loadout for free.</description>
+              <description>The Requiste Wraith - Type 26 Assault Gun Carriage in this battlegroup gains the Commanding Presence 8" loadout for free.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -625,7 +634,10 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60d8-b011-f8dd-0b69" name="Spectral Host Specialist Battlegroup" book="Core" page="32" hidden="false" collective="false" categoryEntryId="7172-8a4b-611a-9f2c" type="unit">
+    <selectionEntry id="60d8-b011-f8dd-0b69" name="Spectral Host Specialist Battlegroup" book="Core" page="32" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="60d8-b011-f8dd-0b69-7172-8a4b-611a-9f2c" targetId="7172-8a4b-611a-9f2c" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules>
         <rule id="8e97-0e65-58c7-2d30" name="Swift Death" hidden="false">
@@ -640,7 +652,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>This Battlegroup is shown only as an example in the Core Rule Book on Page 32 and cannot be assumed as correct. Nor is there any information on the special rule: &quot;Swift Death&quot;</description>
+          <description>This Battlegroup is shown only as an example in the Core Rule Book on Page 32 and cannot be assumed as correct. Nor is there any information on the special rule: "Swift Death"</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -779,7 +791,10 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3487-5e3b-d42f-5494" name="Generic Force Commander" hidden="false" collective="false" categoryEntryId="cefc-8143-dc20-9bf8" type="unit">
+    <selectionEntry id="3487-5e3b-d42f-5494" name="Generic Force Commander" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="3487-5e3b-d42f-5494-cefc-8143-dc20-9bf8" targetId="cefc-8143-dc20-9bf8" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -796,91 +811,130 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="5fbd-29bc-bccd-9303" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+    <entryLink id="5fbd-29bc-bccd-9303" name="New EntryLink" hidden="false" targetId="5097-c273-a60b-a4f6" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="5fbd-29bc-bccd-9303-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="f9d5-8e77-2a6d-e630" name="New EntryLink" hidden="false" targetId="fdbb-01b3-1552-9b78" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+    <entryLink id="f9d5-8e77-2a6d-e630" name="New EntryLink" hidden="false" targetId="fdbb-01b3-1552-9b78" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="f9d5-8e77-2a6d-e630-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="b0f3-3537-3d39-2dba" name="New EntryLink" hidden="false" targetId="bb8c-a54a-8dda-a4ae" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="b0f3-3537-3d39-2dba" name="New EntryLink" hidden="false" targetId="bb8c-a54a-8dda-a4ae" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="b0f3-3537-3d39-2dba-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="584f-8e8d-86d3-63ad" name="New EntryLink" hidden="false" targetId="4348-db42-9be0-c9a8" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="584f-8e8d-86d3-63ad" name="New EntryLink" hidden="false" targetId="4348-db42-9be0-c9a8" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="584f-8e8d-86d3-63ad-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="e457-92c0-6d32-e07f" name="New EntryLink" hidden="false" targetId="0328-8755-095b-685a" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="e457-92c0-6d32-e07f" name="New EntryLink" hidden="false" targetId="0328-8755-095b-685a" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="e457-92c0-6d32-e07f-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="3527-163d-4486-f707" name="New EntryLink" hidden="false" targetId="ccaa-1ab3-b6b3-aea0" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+    <entryLink id="3527-163d-4486-f707" name="New EntryLink" hidden="false" targetId="ccaa-1ab3-b6b3-aea0" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="3527-163d-4486-f707-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="1588-135e-9bb1-9ed2" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry" categoryEntryId="7c35-1431-7aeb-f459">
+    <entryLink id="1588-135e-9bb1-9ed2" name="New EntryLink" hidden="false" targetId="0d2f-3c74-952c-aa16" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="1588-135e-9bb1-9ed2-7c35-1431-7aeb-f459" targetId="7c35-1431-7aeb-f459" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="f65c-de96-aaf9-f7df" name="New EntryLink" hidden="false" targetId="586d-1a5c-212e-ff14" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="f65c-de96-aaf9-f7df" name="New EntryLink" hidden="false" targetId="586d-1a5c-212e-ff14" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="f65c-de96-aaf9-f7df-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="f800-b1e6-3fd4-a30f" name="New EntryLink" hidden="false" targetId="566e-52fe-4238-d9ed" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+    <entryLink id="f800-b1e6-3fd4-a30f" name="New EntryLink" hidden="false" targetId="566e-52fe-4238-d9ed" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="f800-b1e6-3fd4-a30f-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="976a-ad5c-c87e-6480" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+    <entryLink id="976a-ad5c-c87e-6480" name="New EntryLink" hidden="false" targetId="6eb4-2710-255a-5321" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="976a-ad5c-c87e-6480-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="00b3-aae8-ecb4-9243" name="New EntryLink" hidden="false" targetId="cc52-c4ce-5e31-f9a8" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="00b3-aae8-ecb4-9243" name="New EntryLink" hidden="false" targetId="cc52-c4ce-5e31-f9a8" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="00b3-aae8-ecb4-9243-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="4bf2-9fb3-38e1-0f32" name="New EntryLink" hidden="false" targetId="7c18-938c-1579-fc8c" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="4bf2-9fb3-38e1-0f32" name="New EntryLink" hidden="false" targetId="7c18-938c-1579-fc8c" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="4bf2-9fb3-38e1-0f32-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="bc13-cb46-ce87-9cba" name="New EntryLink" hidden="false" targetId="383a-bb82-f425-30af" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="bc13-cb46-ce87-9cba" name="New EntryLink" hidden="false" targetId="383a-bb82-f425-30af" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="bc13-cb46-ce87-9cba-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="10" battleScribeVersion="2.00" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="430f-df64-179a-ec40" name="UNSC Ground Forces" revision="10" gameSystemId="6631-3ba7-47d8-b3df" gameSystemRevision="1">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="c7f5-a544-4e25-2960" name="UNSC Mechanised Infantry Battlegroup" hidden="false" collective="false" categoryEntryId="2622-52fa-29f7-96bb" type="unit">
+    <selectionEntry id="c7f5-a544-4e25-2960" name="UNSC Mechanised Infantry Battlegroup" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="c7f5-a544-4e25-2960-2622-52fa-29f7-96bb" targetId="2622-52fa-29f7-96bb" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -313,7 +316,10 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9800-f5ea-3898-bd85" name="Generic Commander" hidden="false" collective="false" categoryEntryId="1d19-aba0-3ac5-ad1e" type="unit">
+    <selectionEntry id="9800-f5ea-3898-bd85" name="Generic Commander" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="9800-f5ea-3898-bd85-1d19-aba0-3ac5-ad1e" targetId="1d19-aba0-3ac5-ad1e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -328,7 +334,10 @@
         <cost name="BR" costTypeId="Build Rating" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7534-e40d-1e61-2d5c" name="UNSC Standard Armoured Battlegroup" hidden="false" collective="false" categoryEntryId="2622-52fa-29f7-96bb" type="unit">
+    <selectionEntry id="7534-e40d-1e61-2d5c" name="UNSC Standard Armoured Battlegroup" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="7534-e40d-1e61-2d5c-2622-52fa-29f7-96bb" targetId="2622-52fa-29f7-96bb" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -343,7 +352,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The Requiste Scorpion Battle Tank becomes the Group Commander and gains the Commanding Presence 8&quot; loadout for free.</description>
+              <description>The Requiste Scorpion Battle Tank becomes the Group Commander and gains the Commanding Presence 8" loadout for free.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -601,7 +610,10 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3435-3e97-c861-1566" name="Generic Commander" hidden="false" collective="false" categoryEntryId="cefc-8143-dc20-9bf8" type="unit">
+    <selectionEntry id="3435-3e97-c861-1566" name="Generic Commander" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="3435-3e97-c861-1566-cefc-8143-dc20-9bf8" targetId="cefc-8143-dc20-9bf8" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -618,91 +630,130 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="7cf1-8936-eec9-3b95" name="New EntryLink" hidden="false" targetId="2e4e-96d2-f3c0-1eab" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="7cf1-8936-eec9-3b95" name="New EntryLink" hidden="false" targetId="2e4e-96d2-f3c0-1eab" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="7cf1-8936-eec9-3b95-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="65fb-3f02-24d0-efc5" name="New EntryLink" hidden="false" targetId="a6b7-5e23-8479-04a0" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="65fb-3f02-24d0-efc5" name="New EntryLink" hidden="false" targetId="a6b7-5e23-8479-04a0" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="65fb-3f02-24d0-efc5-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="7aef-e07b-abb6-01cb" name="New EntryLink" hidden="false" targetId="2e4e-96d2-f3c0-1eab" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="7aef-e07b-abb6-01cb" name="New EntryLink" hidden="false" targetId="2e4e-96d2-f3c0-1eab" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="7aef-e07b-abb6-01cb-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="6bcd-4d27-7c27-205b" name="New EntryLink" hidden="false" targetId="50e5-dc63-1437-5927" type="selectionEntry" categoryEntryId="7c35-1431-7aeb-f459">
+    <entryLink id="6bcd-4d27-7c27-205b" name="New EntryLink" hidden="false" targetId="50e5-dc63-1437-5927" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="6bcd-4d27-7c27-205b-7c35-1431-7aeb-f459" targetId="7c35-1431-7aeb-f459" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="b348-80fa-8af5-97c7" name="New EntryLink" hidden="false" targetId="916c-7529-28fc-9f10" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+    <entryLink id="b348-80fa-8af5-97c7" name="New EntryLink" hidden="false" targetId="916c-7529-28fc-9f10" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="b348-80fa-8af5-97c7-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="017a-c436-f3d5-5656" name="New EntryLink" hidden="false" targetId="df7d-e83b-c37e-919d" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+    <entryLink id="017a-c436-f3d5-5656" name="New EntryLink" hidden="false" targetId="df7d-e83b-c37e-919d" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="017a-c436-f3d5-5656-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="3dfe-f217-0460-bfa8" name="New EntryLink" hidden="false" targetId="2260-537b-59d0-5a73" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+    <entryLink id="3dfe-f217-0460-bfa8" name="New EntryLink" hidden="false" targetId="2260-537b-59d0-5a73" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="3dfe-f217-0460-bfa8-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="5145-b005-ddc6-db14" name="New EntryLink" hidden="false" targetId="e6d7-6cf9-feda-458c" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="5145-b005-ddc6-db14" name="New EntryLink" hidden="false" targetId="e6d7-6cf9-feda-458c" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="5145-b005-ddc6-db14-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="4cfb-f034-468d-b801" name="New EntryLink" hidden="false" targetId="4508-c9de-df42-298e" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+    <entryLink id="4cfb-f034-468d-b801" name="New EntryLink" hidden="false" targetId="4508-c9de-df42-298e" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="4cfb-f034-468d-b801-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="dd98-3f54-f2d6-f99d" name="New EntryLink" hidden="false" targetId="977c-445b-7cbe-11dd" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="dd98-3f54-f2d6-f99d" name="New EntryLink" hidden="false" targetId="977c-445b-7cbe-11dd" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="dd98-3f54-f2d6-f99d-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="0a45-e305-8433-2b2e" name="New EntryLink" hidden="false" targetId="bc85-0e92-3e0c-c0fe" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="0a45-e305-8433-2b2e" name="New EntryLink" hidden="false" targetId="bc85-0e92-3e0c-c0fe" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="0a45-e305-8433-2b2e-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="e85a-597d-49a3-29de" name="New EntryLink" hidden="false" targetId="5675-3311-9e98-a64a" type="selectionEntry" categoryEntryId="870a-81aa-e07c-3d01">
+    <entryLink id="e85a-597d-49a3-29de" name="New EntryLink" hidden="false" targetId="5675-3311-9e98-a64a" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="e85a-597d-49a3-29de-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="3698-6842-57f1-c1f2" name="New EntryLink" hidden="false" targetId="36a8-6cba-d137-ea87" type="selectionEntry" categoryEntryId="0744-a0c8-3431-ff6e">
+    <entryLink id="3698-6842-57f1-c1f2" name="New EntryLink" hidden="false" targetId="36a8-6cba-d137-ea87" type="selectionEntry">
+<categoryLinks>
+<categoryLink id="3698-6842-57f1-c1f2-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -711,7 +762,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="2e4e-96d2-f3c0-1eab" name="Officer - UNSC Army Command Unit" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="2e4e-96d2-f3c0-1eab" name="Officer - UNSC Army Command Unit" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="6adc-0744-7275-fa4e" name="Officer - Command Unit" hidden="false" profileTypeId="64a0-7713-dd08-5a9d">
           <profiles/>
@@ -780,7 +831,7 @@
         <cost name="C" costTypeId="Character" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e6d7-6cf9-feda-458c" name="Riflemen - UNSC Army Infantry Squad" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="e6d7-6cf9-feda-458c" name="Riflemen - UNSC Army Infantry Squad" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -872,7 +923,7 @@
         <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="977c-445b-7cbe-11dd" name="Spartan - Special Warfare Asset" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+    <selectionEntry id="977c-445b-7cbe-11dd" name="Spartan - Special Warfare Asset" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="e4b5-8a62-17d0-b328" name="Spartan - Frag Grenades" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a">
           <profiles/>
@@ -934,7 +985,7 @@
         <cost name="C" costTypeId="Character" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="916c-7529-28fc-9f10" name="Warthog - M12 Force Application Vehicle Unit" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="916c-7529-28fc-9f10" name="Warthog - M12 Force Application Vehicle Unit" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -960,7 +1011,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e2d-9dd6-9d41-1bc5" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="9a9f-a349-dfb8-4d10" name="Warthog - M12 Force Application Vehicle" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+            <selectionEntry id="9a9f-a349-dfb8-4d10" name="Warthog - M12 Force Application Vehicle" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -1000,7 +1051,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fa65-6eb7-ee28-3c1b" name="Riflemen - UNSC Army Battle Squad" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="fa65-6eb7-ee28-3c1b" name="Riflemen - UNSC Army Battle Squad" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1098,7 +1149,7 @@
         <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a6b7-5e23-8479-04a0" name="Fire Support - UNSC Army Weapons Unit" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="a6b7-5e23-8479-04a0" name="Fire Support - UNSC Army Weapons Unit" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="5c6a-119b-0b7f-de71" name="Frag Grenades" hidden="false" profileTypeId="6c7a-4fe3-9ca0-168a">
           <profiles/>
@@ -1286,7 +1337,7 @@
         <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36a8-6cba-d137-ea87" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle Unit" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="36a8-6cba-d137-ea87" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle Unit" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1312,7 +1363,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa2d-5ad4-d2cd-62ad" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4007-b896-6864-7319" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+            <selectionEntry id="4007-b896-6864-7319" name="Gauss Warthog - M12G1 Light Anti-Armour Vehicle" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -1352,7 +1403,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4508-c9de-df42-298e" name="Rocket Warthog - M12R Light Anti-Aircraft Vehicle Unit" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="4508-c9de-df42-298e" name="Rocket Warthog - M12R Light Anti-Aircraft Vehicle Unit" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1378,7 +1429,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eba4-64ab-24ee-ef31" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="fc51-d748-e869-9bcc" name="Rocket Warthog - M12R Light Anti-Aircraft Vehicle" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+            <selectionEntry id="fc51-d748-e869-9bcc" name="Rocket Warthog - M12R Light Anti-Aircraft Vehicle" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -1486,7 +1537,7 @@
         <cost name="C" costTypeId="Character" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc85-0e92-3e0c-c0fe" name="Reacon Team - UNSC Army Sniper Team" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="bc85-0e92-3e0c-c0fe" name="Reacon Team - UNSC Army Sniper Team" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>

@@ -1,5 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6631-3ba7-47d8-b3df" name="Halo Ground Command" revision="5" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="6631-3ba7-47d8-b3df" name="Halo Ground Command" revision="5">
+<categoryEntries>
+<categoryEntry id="1d19-aba0-3ac5-ad1e" name="1. Force Commander (BG)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="2622-52fa-29f7-96bb" name="2. Standard Battle Groups" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="7172-8a4b-611a-9f2c" name="3. Specialist Battle Groups" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="cefc-8143-dc20-9bf8" name="1. Force Commander (OS)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="870a-81aa-e07c-3d01" name="2. Infantry Units" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="0744-a0c8-3431-ff6e" name="3. Armoured Units" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="7c35-1431-7aeb-f459" name="4. Flyer Units" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+</categoryEntries>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -48,13 +98,8 @@
   </profileTypes>
   <forceEntries>
     <forceEntry id="8f40-a247-04c7-df36" name="Battle Group Selection" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryEntries>
-        <categoryEntry id="1d19-aba0-3ac5-ad1e" name="1. Force Commander (BG)" hidden="false">
+<categoryLinks>
+<categoryLink id="8f40-a247-04c7-df36-1d19-aba0-3ac5-ad1e" targetId="1d19-aba0-3ac5-ad1e" name="1. Force Commander (BG)" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -63,8 +108,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5be6-efdc-49cf-6140" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="2622-52fa-29f7-96bb" name="2. Standard Battle Groups" hidden="false">
+        </categoryLink>
+<categoryLink id="8f40-a247-04c7-df36-2622-52fa-29f7-96bb" targetId="2622-52fa-29f7-96bb" name="2. Standard Battle Groups" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -72,8 +117,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93fb-7948-b087-268c" type="min"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="7172-8a4b-611a-9f2c" name="3. Specialist Battle Groups" hidden="false">
+        </categoryLink>
+<categoryLink id="8f40-a247-04c7-df36-7172-8a4b-611a-9f2c" targetId="7172-8a4b-611a-9f2c" name="3. Specialist Battle Groups" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -89,18 +134,19 @@
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b45a-545d-8760-3986" type="max"/>
           </constraints>
-        </categoryEntry>
-      </categoryEntries>
-      <forceEntries/>
-    </forceEntry>
-    <forceEntry id="ab5c-724c-54d3-1d4f" name="Open Selection" hidden="false">
+        </categoryLink>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryEntries>
-        <categoryEntry id="cefc-8143-dc20-9bf8" name="1. Force Commander (OS)" hidden="false">
+      
+      <forceEntries/>
+    </forceEntry>
+    <forceEntry id="ab5c-724c-54d3-1d4f" name="Open Selection" hidden="false">
+<categoryLinks>
+<categoryLink id="ab5c-724c-54d3-1d4f-cefc-8143-dc20-9bf8" targetId="cefc-8143-dc20-9bf8" name="1. Force Commander (OS)" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -109,8 +155,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5119-70d9-a63c-01bf" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3fa-91ab-e7f6-fb26" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="870a-81aa-e07c-3d01" name="2. Infantry Units" hidden="false">
+        </categoryLink>
+<categoryLink id="ab5c-724c-54d3-1d4f-870a-81aa-e07c-3d01" targetId="870a-81aa-e07c-3d01" name="2. Infantry Units" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -118,22 +164,28 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0e2-20fe-3eba-a90f" type="min"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="0744-a0c8-3431-ff6e" name="3. Armoured Units" hidden="false">
+        </categoryLink>
+<categoryLink id="ab5c-724c-54d3-1d4f-0744-a0c8-3431-ff6e" targetId="0744-a0c8-3431-ff6e" name="3. Armoured Units" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="7c35-1431-7aeb-f459" name="4. Flyer Units" hidden="false">
+        </categoryLink>
+<categoryLink id="ab5c-724c-54d3-1d4f-7c35-1431-7aeb-f459" targetId="7c35-1431-7aeb-f459" name="4. Flyer Units" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-      </categoryEntries>
+        </categoryLink>
+</categoryLinks>
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      
       <forceEntries/>
     </forceEntry>
   </forceEntries>
